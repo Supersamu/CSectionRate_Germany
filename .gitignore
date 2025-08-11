@@ -1,0 +1,4 @@
+# Data folder for the xml files
+data/
+# Program output, cannot be published without permission
+output/
