@@ -2,3 +2,9 @@
 data/
 # Program output, cannot be published without permission
 output/
+# Cache, IDE and venv folders and files
+.idea/
+.venv/
+venv/
+env/
+__pycache__/
