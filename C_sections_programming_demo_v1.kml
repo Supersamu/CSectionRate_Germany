@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>C_sections_programming_demo_v1</name>
+    <description>First step</description>
+    <Style id="icon-1899-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[<20%]]></name>
+      <Placemark>
+        <name>Evangelisches Amalie Sieveking Krankenhaus</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.151848,53.64112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vinzenzkrankenhaus Hannover</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.814758,52.358575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION EVANGELISCHES KRANKENHAUS HOLZMINDEN</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.455544,51.834176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Borromäus Hospital Leer gGmbH</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.444915,53.228518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marien Hospital Düsseldorf GmbH</name>
+        <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.785557,51.235961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>20-30%</name>
+      <Placemark>
+        <name>Johanniter-Krankenhaus Geesthacht GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.385809,53.431525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.9918,54.064339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtisches Krankenhaus Kiel GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.116337,54.32282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Mariahilf Klinik Hamburg</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.93781,53.469869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION DIAKONIEKLINIKUM HAMBURG</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.965901,53.571793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delme-Klinikum Delmenhorst GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.593421,53.044492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Marienstift</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.545815,52.258658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HELIOS Klinikum Gifhorn GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.548264,52.497113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asklepios Harzklinik Goslar</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.442516,51.928178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinik Herzberg/Osterode</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.343182,51.669395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinikum Salzgitter GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.318994,52.154747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DIAKOVERE Friederikenstift</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.724387,52.37142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medizinische Hochschule Hannover</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.802795,52.384211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KRH Klinikum Robert Koch Gehrden</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.59849,52.30439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KRH Klinikum Neustadt am Rübenberge</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.466315,52.493634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OsteMed Klinik Bremervörde</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.135656,53.471384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elbe Klinikum Buxtehude</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.675953,53.461839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALLGEMEINES KRANKENHAUS CELLE</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.086256,52.62889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elbe-Jeetzel-Klinik Dannenberg</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.079562,53.082869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aller-Weser-Klinik gGmbH, Krankenhaus Verden</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.231938,52.914024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.874216,52.540471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Oldenburg</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.204892,53.142595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DIAKO Ev. Diakonie-Krankenhaus gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.745387,53.125885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus St. Joseph-Stift Bremen GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.835041,53.083242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Bremerhaven-Reinkenheide gGmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.63676,53.537764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Florence-Nightingale-Krankenhaus</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.749471,51.300359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Bethesda zu Duisburg</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.761427,51.417233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtische Kliniken Mönchengladbach GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.419909,51.158085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION BETHESDA KRANKENHAUS WUPPERTAL gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.130466,51.268337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>30-40%</name>
+      <Placemark>
+        <name>DIAKO Klinikum</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.42531,54.790148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kath. Marien-Krankenhaus Lübeck gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.685324,53.862421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DRK-Krankenhaus Mölln-Ratzeburg gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.778847,53.689839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Nordfriesland gGmbH, Klinik Husum</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.0502,54.483301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AMEOS Krankenhausgesellschaft mbH - Klinikum Eutin</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.601961,54.133151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Regio Kliniken GmbH - Klinikum Pinneberg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.81181,53.654252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinik Preetz</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.276815,54.239029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>imland Klinik Rendsburg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.657883,54.297238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HELIOS Klinik Schleswig GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.565828,54.52509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SEGEBERGER KLINIKEN GMBH-Standort Bad Segeberg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.307241,53.941861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Itzehoe</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.503011,53.941714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Reinbek St. Adolf-Stift GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.240658,53.509736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paracelsus-Klinik Henstedt-Ulzburg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.007182,53.748877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNIVERSITÄTSKLINIKUM Schleswig-Holstein, Campus Lübeck</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.707863,53.838759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNIVERSITÄTSKLINIKUM Schleswig-Holstein, Campus Kiel</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.144883,54.328446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitätsklinikum Hamburg-Eppendorf</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.975376,53.590905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asklepios Klinik Barmbek</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.036479,53.606274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asklepios Klinik Altona</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.89889,53.554621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asklepios Klinik Wandsbek</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.088066,53.569901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albertinen-Krankenhaus / Albertinen-Haus gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.906,53.630568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asklepios Klinik Nord - Heidberg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.030128,53.674141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION BETHESDA KRANKENHAUS BERGEDORF GgmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.236002,53.485779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION EV. KLINIKUM SCHAUMBURG</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.105367,52.263914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtisches Klinikum Braunschweig gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.545844,52.237934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios St. Marienberg Klinik Helmstedt GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.999309,52.231876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HELIOS Albert-Schweitzer-Klinik Northeim [NOM]</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.978864,51.729808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Elisabeth-Krankenhaus Salzgitter gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.371854,52.045425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtisches Klinikum Wolfenbüttel gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.533651,52.179908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Wolfsburg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.768597,52.413673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Göttingen-Weende gGmbH - Krankenhaus Neu-Mariahilf</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.942581,51.541667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION KRANKENHAUS NEU BETHLEHEM gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.94312,51.540763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gesundheitseinrichtungen Hameln-Pyrmont GmbH - Sana Klinikum Hameln-Pyrmont</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.351581,52.10754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DIAKOVERE Henriettenstift</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.82757,52.363273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Bernward Krankenhaus</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.947441,52.147158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinikum Hildesheim GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.976689,52.151352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Kliniken Mittelweser GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.224454,52.635718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KRH Klinikum Großburgwedel</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.861977,52.496356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Buchholz</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.871635,53.333273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinik Cuxhaven GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.692786,53.85275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heidekreis-Klinikum GmbH Krankenhaus Walsrode</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.586968,52.859178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kreiskrankenhaus Osterholz</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.793661,53.233117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION DIAKONIEKLINIKUM ROTENBURG gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.412896,53.10522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elbe Klinikum Stade</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.441875,53.596262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Winsen ( Luhe )</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.200167,53.350559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinikum Uelzen GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.532286,52.971977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ubbo-Emmius-Klinik gGmbH, Klinik Aurich</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.498663,53.468142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus St. Elisabeth gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.194257,52.520935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Leer gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.458229,53.235873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niels-Stensen-Klinikum Christliches Klinikum Melle</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.336058,52.198644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Ludmillenstift</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.293,52.688716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Euregio-Klinik Albert-Schweitzer-Straße GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.065972,52.443033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Osnabrück GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.002619,52.278251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friesland Kliniken gGmbH St. Johannes-Hospital</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.13958,53.391942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krankenhaus Johanneum</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.432467,52.893744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Wilhelmshaven gGmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.082819,53.545745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Josefs-Hospital Cloppenburg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.040367,52.847258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niels-Stensen-Kliniken Franziskus-Hospital Harderberg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.072329,52.237767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ammerland-Klinik Westerstede</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.918522,53.257492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marien Hospital Papenburg Aschendorf gGmbH Standort Papenburg</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.390106,53.083578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Bremen-Mitte</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.840024,53.074569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Bremen-Nord</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.622831,53.183962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Links der Weser</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.818738,53.035798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGAPLESION ALLGEMEINES KRANKENHAUS HAGEN gem. GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.466078,51.354026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herz-Jesu-Krankenhaus Hiltrup GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.634403,51.908847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sana Kliniken Düsseldorf, Standort Benrath</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.871053,51.153206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Düsseldorf</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.773065,51.213091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wedau Kliniken</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.783873,51.396615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios St. Johannes Klinik</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.760606,51.490144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elisabeth-Krankenhaus Essen</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.032822,51.445437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alfried Krupp Krankenhaus Rüttenscheid</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.007606,51.426264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Klinikum Krefeld</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.566087,51.320945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Mülheim an der Ruhr GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.882417,51.424596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AMEOS Klinikum St. Clemens Oberhausen</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.84481,51.517511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evangelisches Krankenhaus Oberhausen GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.866275,51.474424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sana-Klinikum Remscheid GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.186789,51.161546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtisches Klinikum Solingen gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.069422,51.185478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helios Universitätsklinikum Wuppertal GmbH</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.173906,51.275262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SRH Krankenhaus Sigmaringen</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.226124,48.096203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[>40%]]></name>
+      <Placemark>
+        <name>Westküstenklinikum Heide</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.077679,54.199898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kath. Marienkrankenhaus gGmbH</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.03074,53.559033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitätsmedizin Göttingen</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            9.942828,51.550819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Städtisches Klinikum Lüneburg gemeinnützige GmbH</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.395866,53.240222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonifatius Hospital Lingen</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.315308,52.524578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Franziskus-Hospital</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.24088,52.664618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klinikum Oldenburg AöR</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.217153,53.111788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niels-Stensen-Kliniken Marienhospital Osnabrück</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.0534,52.27023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hümmling Hospital Sögel gGmbH</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.519517,52.843536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Marienhospital Vechta</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.287163,52.725453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitätsklinikum Düsseldorf</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.789821,51.195968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitätsklinikum Essen (AöR)</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.988009,51.434706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charité - Universitätsmedizin Berlin</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.377758,52.525852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
