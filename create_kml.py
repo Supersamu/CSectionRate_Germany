@@ -15,7 +15,7 @@ def create_kml_from_csv(df, year):
     kml_content = f'''<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>C-Section Rates in German Hospitals</name>
+    <name>C-Section Rates in German Hospitals {year}</name>
     <description>Hospitals are grouped by the percentage of C-Sections that are performed. Location Data from OpenStreetMap, available under the Open Database License. Hospital Statistics from www.g-ba.de/qualitaetsberichte (Qualitätsberichte der Krankenhäuser, {year})/</description>
     <Style id="icon-1899-558B2F-nodesc-normal">
       <IconStyle>
@@ -231,16 +231,17 @@ def create_kml_from_csv(df, year):
                         
                         description = f"""
                         <![CDATA[
-                        <b>Address:</b> {street}, {postal_code} {city}<br/>
-                        <b>Total Births:</b> {total_births}<br/>
-                        <b>C-sections:</b> {csections}<br/>
-                        <b>C-section Rate:</b> {rate}%
+                        <b>Addresse:</b> {street}, {postal_code} {city}<br/>
+                        <b>Anzahl Geburten {year}:</b> {total_births}<br/>
+                        <b>Anzahl Kaiserschnitte {year}:</b> {csections}<br/>
+                        <b>Kaiserschnittrate:</b> {rate}%
                         ]]>
                         """
                         
                         kml_content += f'''
       <Placemark>
         <name>{hospital_name}</name>
+        <description>{description}</description>
         <styleUrl>#icon-1899-{style_id}-nodesc</styleUrl>
         <Point>
           <coordinates>

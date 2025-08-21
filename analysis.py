@@ -129,12 +129,12 @@ covering **{stats['total_births']:,} total births** and **{stats['total_csection
 - **National C-section Rate**: {stats['overall_rate']:.1%} ({stats['total_csections']:,} out of {stats['total_births']:,} births)
 - **Average Hospital Rate**: {stats['mean_rate']:.1%} (± {stats['std_rate']:.1%})
 - **Median Hospital Rate**: {stats['median_rate']:.1%}
-- **Range**: {stats['min_rate']:.1%} - {stats['max_rate']:.1%}
+- **Range**: {stats['min_rate']:.0%} - {stats['max_rate']:.0%}
 
 ## Recommendations
 
 1. **Regional Analysis**: Investigate state-level variations for policy implications  
-2. **Trend Monitoring**: Track changes over time to measure improvement initiatives
+2. **Trend Monitoring**: Track changes over time to measure changes in C-section rates
 
 ---
 *Report generated automatically from hospital quality data*

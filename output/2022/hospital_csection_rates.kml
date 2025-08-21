@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>C-Section Rates in German Hospitals</name>
+    <name>C-Section Rates in German Hospitals 2022</name>
     <description>Hospitals are grouped by the percentage of C-Sections that are performed. Location Data from OpenStreetMap, available under the Open Database License. Hospital Statistics from www.g-ba.de/qualitaetsberichte (Qualitätsberichte der Krankenhäuser, 2022)/</description>
     <Style id="icon-1899-558B2F-nodesc-normal">
       <IconStyle>
@@ -175,6 +175,14 @@
       <name><![CDATA[<20%]]></name>
       <Placemark>
         <name>Evangelisches Amalie Sieveking Krankenhaus</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Haselkamp 33, 22359 Hamburg<br/>
+                        <b>Total Births:</b> 1236<br/>
+                        <b>C-sections:</b> 238<br/>
+                        <b>C-section Rate:</b> 19%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -184,6 +192,14 @@
       </Placemark>
       <Placemark>
         <name>Vinzenzkrankenhaus Hannover</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lange-Feld-Strasse 31, 30559 Hannover<br/>
+                        <b>Total Births:</b> 1257<br/>
+                        <b>C-sections:</b> 224<br/>
+                        <b>C-section Rate:</b> 18%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -193,6 +209,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION EVANGELISCHES KRANKENHAUS HOLZMINDEN</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Forster Weg  34, 37603 Holzminden<br/>
+                        <b>Total Births:</b> 416<br/>
+                        <b>C-sections:</b> 76<br/>
+                        <b>C-section Rate:</b> 18%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -202,6 +226,14 @@
       </Placemark>
       <Placemark>
         <name>Borromäus Hospital Leer gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Kirchstraße 61 - 67, 26789 Leer<br/>
+                        <b>Total Births:</b> 948<br/>
+                        <b>C-sections:</b> 161<br/>
+                        <b>C-section Rate:</b> 17%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -211,6 +243,14 @@
       </Placemark>
       <Placemark>
         <name>Marien Hospital Düsseldorf GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Rochusstr. 2, 40479 Düsseldorf<br/>
+                        <b>Total Births:</b> 1059<br/>
+                        <b>C-sections:</b> 175<br/>
+                        <b>C-section Rate:</b> 17%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -223,6 +263,14 @@
       <name><![CDATA[20-30%]]></name>
       <Placemark>
         <name>Johanniter-Krankenhaus Geesthacht GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Am Runden Berge 3, 21502 Geesthacht<br/>
+                        <b>Total Births:</b> 705<br/>
+                        <b>C-sections:</b> 146<br/>
+                        <b>C-section Rate:</b> 21%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -232,6 +280,14 @@
       </Placemark>
       <Placemark>
         <name>FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Friesenstraße 11, 24534 Neumünster<br/>
+                        <b>Total Births:</b> 953<br/>
+                        <b>C-sections:</b> 216<br/>
+                        <b>C-section Rate:</b> 23%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -241,6 +297,14 @@
       </Placemark>
       <Placemark>
         <name>Städtisches Krankenhaus Kiel GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Chemnitzstr. 33, 24116 Kiel<br/>
+                        <b>Total Births:</b> 1943<br/>
+                        <b>C-sections:</b> 520<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -250,6 +314,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Mariahilf Klinik Hamburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Stader Straße 203 c, 21075 Hamburg<br/>
+                        <b>Total Births:</b> 1762<br/>
+                        <b>C-sections:</b> 509<br/>
+                        <b>C-section Rate:</b> 29%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -259,6 +331,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION DIAKONIEKLINIKUM HAMBURG</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hohe Weide 17, 20259 Hamburg<br/>
+                        <b>Total Births:</b> 1185<br/>
+                        <b>C-sections:</b> 320<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -268,6 +348,14 @@
       </Placemark>
       <Placemark>
         <name>Delme-Klinikum Delmenhorst GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wildeshauser Straße 92, 27753 Delmenhorst<br/>
+                        <b>Total Births:</b> 794<br/>
+                        <b>C-sections:</b> 219<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -277,6 +365,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Marienstift</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Helmstedter Str. 35, 38102 Braunschweig<br/>
+                        <b>Total Births:</b> 1031<br/>
+                        <b>C-sections:</b> 280<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -286,6 +382,14 @@
       </Placemark>
       <Placemark>
         <name>HELIOS Klinikum Gifhorn GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Campus 6, 38518 Gifhorn<br/>
+                        <b>Total Births:</b> 1297<br/>
+                        <b>C-sections:</b> 366<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -295,6 +399,14 @@
       </Placemark>
       <Placemark>
         <name>Asklepios Harzklinik Goslar</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Kösliner Straße 12, 38642 Goslar<br/>
+                        <b>Total Births:</b> 457<br/>
+                        <b>C-sections:</b> 134<br/>
+                        <b>C-section Rate:</b> 29%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -304,6 +416,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinik Herzberg/Osterode</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Dr.-Frössel-Allee 1, 37412 Herzberg am Harz<br/>
+                        <b>Total Births:</b> 617<br/>
+                        <b>C-sections:</b> 137<br/>
+                        <b>C-section Rate:</b> 22%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -313,6 +433,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinikum Salzgitter GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Kattowitzer Str. 191, 38226 Salzgitter<br/>
+                        <b>Total Births:</b> 709<br/>
+                        <b>C-sections:</b> 166<br/>
+                        <b>C-section Rate:</b> 23%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -322,6 +450,14 @@
       </Placemark>
       <Placemark>
         <name>DIAKOVERE Friederikenstift </name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Humboldtstraße 5, 30169 Hannover<br/>
+                        <b>Total Births:</b> 1372<br/>
+                        <b>C-sections:</b> 285<br/>
+                        <b>C-section Rate:</b> 21%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -331,6 +467,14 @@
       </Placemark>
       <Placemark>
         <name>Medizinische Hochschule Hannover</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Carl-Neuberg-Straße 1, 30625 Hannover<br/>
+                        <b>Total Births:</b> 2589<br/>
+                        <b>C-sections:</b> 761<br/>
+                        <b>C-section Rate:</b> 29%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -340,6 +484,14 @@
       </Placemark>
       <Placemark>
         <name>KRH Klinikum Robert Koch Gehrden</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Von-Reden-Straße 1, 30989 Gehrden<br/>
+                        <b>Total Births:</b> 1067<br/>
+                        <b>C-sections:</b> 233<br/>
+                        <b>C-section Rate:</b> 22%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -349,6 +501,14 @@
       </Placemark>
       <Placemark>
         <name>KRH Klinikum Neustadt am Rübenberge</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lindenstraße  75, 31535 Neustadt am Rübenberge<br/>
+                        <b>Total Births:</b> 1113<br/>
+                        <b>C-sections:</b> 314<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -358,6 +518,14 @@
       </Placemark>
       <Placemark>
         <name>OsteMed Klinik Bremervörde</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Gnarrenburger Straße 117, 27432 Bremervörde<br/>
+                        <b>Total Births:</b> 371<br/>
+                        <b>C-sections:</b> 91<br/>
+                        <b>C-section Rate:</b> 25%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -367,6 +535,14 @@
       </Placemark>
       <Placemark>
         <name>Elbe Klinikum Buxtehude</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Am Krankenhaus 1, 21614 Buxtehude<br/>
+                        <b>Total Births:</b> 939<br/>
+                        <b>C-sections:</b> 241<br/>
+                        <b>C-section Rate:</b> 26%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -376,6 +552,14 @@
       </Placemark>
       <Placemark>
         <name>ALLGEMEINES KRANKENHAUS CELLE</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Siemensplatz 4, 29223 Celle<br/>
+                        <b>Total Births:</b> 1566<br/>
+                        <b>C-sections:</b> 416<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -385,6 +569,14 @@
       </Placemark>
       <Placemark>
         <name>Elbe-Jeetzel-Klinik Dannenberg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hermann-Löns-Straße 2, 29451 Dannenberg<br/>
+                        <b>Total Births:</b> 256<br/>
+                        <b>C-sections:</b> 66<br/>
+                        <b>C-section Rate:</b> 26%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -394,6 +586,14 @@
       </Placemark>
       <Placemark>
         <name>Aller-Weser-Klinik gGmbH, Krankenhaus Verden</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Eitzer Straße 20, 27283 Verden (Aller)<br/>
+                        <b>Total Births:</b> 697<br/>
+                        <b>C-sections:</b> 193<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -403,6 +603,14 @@
       </Placemark>
       <Placemark>
         <name>Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lingener Straße 11, 49577 Ankum<br/>
+                        <b>Total Births:</b> 680<br/>
+                        <b>C-sections:</b> 197<br/>
+                        <b>C-section Rate:</b> 29%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -412,6 +620,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Oldenburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Steinweg 13 - 17, 26122 Oldenburg<br/>
+                        <b>Total Births:</b> 1564<br/>
+                        <b>C-sections:</b> 425<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -421,6 +637,14 @@
       </Placemark>
       <Placemark>
         <name>DIAKO Ev. Diakonie-Krankenhaus gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Gröpelinger Heerstr.  406, 28239 Bremen<br/>
+                        <b>Total Births:</b> 729<br/>
+                        <b>C-sections:</b> 199<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -430,6 +654,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus St. Joseph-Stift Bremen GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Schwachhauser Heerstraße 54, 28209 Bremen<br/>
+                        <b>Total Births:</b> 1868<br/>
+                        <b>C-sections:</b> 514<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -439,6 +671,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Bremerhaven-Reinkenheide gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Postbrookstraße 103, 27574 Bremerhaven<br/>
+                        <b>Total Births:</b> 1942<br/>
+                        <b>C-sections:</b> 565<br/>
+                        <b>C-section Rate:</b> 29%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -448,6 +688,14 @@
       </Placemark>
       <Placemark>
         <name>Florence-Nightingale-Krankenhaus</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Kreuzbergstraße 79, 40489 Düsseldorf<br/>
+                        <b>Total Births:</b> 3167<br/>
+                        <b>C-sections:</b> 878<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -457,6 +705,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Bethesda zu Duisburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Heerstraße 219, 47053 Duisburg<br/>
+                        <b>Total Births:</b> 844<br/>
+                        <b>C-sections:</b> 229<br/>
+                        <b>C-section Rate:</b> 27%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -466,6 +722,14 @@
       </Placemark>
       <Placemark>
         <name>Städtische Kliniken Mönchengladbach GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hubertusstraße 100, 41239 Mönchengladbach<br/>
+                        <b>Total Births:</b> 3405<br/>
+                        <b>C-sections:</b> 959<br/>
+                        <b>C-section Rate:</b> 28%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -475,6 +739,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION BETHESDA KRANKENHAUS WUPPERTAL gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hainstraße 35, 42109 Wuppertal<br/>
+                        <b>Total Births:</b> 1046<br/>
+                        <b>C-sections:</b> 247<br/>
+                        <b>C-section Rate:</b> 24%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -487,6 +759,14 @@
       <name><![CDATA[30-40%]]></name>
       <Placemark>
         <name>DIAKO Klinikum</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Knuthstr. 1, 24939 Flensburg<br/>
+                        <b>Total Births:</b> 1638<br/>
+                        <b>C-sections:</b> 546<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -496,6 +776,14 @@
       </Placemark>
       <Placemark>
         <name>Kath. Marien-Krankenhaus Lübeck gemeinnützige GmbH </name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Parade 3, 23552 Lübeck<br/>
+                        <b>Total Births:</b> 1369<br/>
+                        <b>C-sections:</b> 482<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -505,6 +793,14 @@
       </Placemark>
       <Placemark>
         <name>DRK-Krankenhaus Mölln-Ratzeburg gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Röpersberg 2, 23909 Ratzeburg<br/>
+                        <b>Total Births:</b> 13<br/>
+                        <b>C-sections:</b> 4<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -514,6 +810,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Nordfriesland gGmbH, Klinik Husum</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Erichsenweg 16, 25813 Husum<br/>
+                        <b>Total Births:</b> 762<br/>
+                        <b>C-sections:</b> 273<br/>
+                        <b>C-section Rate:</b> 36%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -523,6 +827,14 @@
       </Placemark>
       <Placemark>
         <name>AMEOS Krankenhausgesellschaft mbH - Klinikum Eutin</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hospitalstraße 22, 23701 Eutin<br/>
+                        <b>Total Births:</b> 1020<br/>
+                        <b>C-sections:</b> 313<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -532,6 +844,14 @@
       </Placemark>
       <Placemark>
         <name>Regio Kliniken GmbH - Klinikum Pinneberg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Fahltskamp 74, 25421 Pinneberg<br/>
+                        <b>Total Births:</b> 1099<br/>
+                        <b>C-sections:</b> 346<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -541,6 +861,14 @@
       </Placemark>
       <Placemark>
         <name>Klinik Preetz</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Am Krankenhaus 5, 24306 Plön<br/>
+                        <b>Total Births:</b> 98<br/>
+                        <b>C-sections:</b> 29<br/>
+                        <b>C-section Rate:</b> 30%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -550,6 +878,14 @@
       </Placemark>
       <Placemark>
         <name>imland Klinik Rendsburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lilienstr. 20-28, 24768 Rendsburg<br/>
+                        <b>Total Births:</b> 956<br/>
+                        <b>C-sections:</b> 371<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -559,6 +895,14 @@
       </Placemark>
       <Placemark>
         <name>HELIOS Klinik Schleswig GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> St. Jürgener Straße 1-3, 24837 Schleswig<br/>
+                        <b>Total Births:</b> 847<br/>
+                        <b>C-sections:</b> 275<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -568,6 +912,14 @@
       </Placemark>
       <Placemark>
         <name>SEGEBERGER KLINIKEN GMBH-Standort Bad Segeberg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Klosterkamp 1a, 23795 Bad Segeberg<br/>
+                        <b>Total Births:</b> 650<br/>
+                        <b>C-sections:</b> 208<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -577,6 +929,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Itzehoe</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Robert-Koch-Str. 2, 25524 Itzehoe<br/>
+                        <b>Total Births:</b> 1769<br/>
+                        <b>C-sections:</b> 689<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -586,6 +946,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Reinbek St. Adolf-Stift GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hamburger Straße 41, 21465 Reinbek<br/>
+                        <b>Total Births:</b> 683<br/>
+                        <b>C-sections:</b> 239<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -595,6 +963,14 @@
       </Placemark>
       <Placemark>
         <name>Paracelsus-Klinik Henstedt-Ulzburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wilstedter Straße 134, 24558 Henstedt-Ulzburg<br/>
+                        <b>Total Births:</b> 578<br/>
+                        <b>C-sections:</b> 185<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -604,6 +980,14 @@
       </Placemark>
       <Placemark>
         <name>UNIVERSITÄTSKLINIKUM Schleswig-Holstein, Campus Lübeck</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Ratzeburger Allee 160, 23538 Lübeck<br/>
+                        <b>Total Births:</b> 1827<br/>
+                        <b>C-sections:</b> 665<br/>
+                        <b>C-section Rate:</b> 36%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -613,6 +997,14 @@
       </Placemark>
       <Placemark>
         <name>UNIVERSITÄTSKLINIKUM Schleswig-Holstein, Campus Kiel</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Arnold-Heller-Straße 3, 24105 Kiel<br/>
+                        <b>Total Births:</b> 1970<br/>
+                        <b>C-sections:</b> 636<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -622,6 +1014,14 @@
       </Placemark>
       <Placemark>
         <name>Universitätsklinikum Hamburg-Eppendorf</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Martinistraße 52, 20246 Hamburg<br/>
+                        <b>Total Births:</b> 2974<br/>
+                        <b>C-sections:</b> 969<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -631,6 +1031,14 @@
       </Placemark>
       <Placemark>
         <name>Asklepios Klinik Barmbek</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Rübenkamp 220, 22307 Hamburg<br/>
+                        <b>Total Births:</b> 2948<br/>
+                        <b>C-sections:</b> 1118<br/>
+                        <b>C-section Rate:</b> 38%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -640,6 +1048,14 @@
       </Placemark>
       <Placemark>
         <name>Asklepios Klinik Altona</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Paul-Ehrlich-Straße 1, 22763 Hamburg<br/>
+                        <b>Total Births:</b> 3450<br/>
+                        <b>C-sections:</b> 1318<br/>
+                        <b>C-section Rate:</b> 38%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -649,6 +1065,14 @@
       </Placemark>
       <Placemark>
         <name>Asklepios Klinik Wandsbek</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Alphonsstraße 14, 22043 Hamburg<br/>
+                        <b>Total Births:</b> 961<br/>
+                        <b>C-sections:</b> 357<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -658,6 +1082,14 @@
       </Placemark>
       <Placemark>
         <name>Albertinen-Krankenhaus / Albertinen-Haus gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Süntelstraße 11a, 22457 Hamburg<br/>
+                        <b>Total Births:</b> 2550<br/>
+                        <b>C-sections:</b> 769<br/>
+                        <b>C-section Rate:</b> 30%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -667,6 +1099,14 @@
       </Placemark>
       <Placemark>
         <name>Asklepios Klinik Nord - Heidberg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Tangstedter Landstraße 400, 22417 Hamburg<br/>
+                        <b>Total Births:</b> 1783<br/>
+                        <b>C-sections:</b> 659<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -676,6 +1116,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION BETHESDA KRANKENHAUS BERGEDORF GgmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Glindersweg 80, 21029 Hamburg<br/>
+                        <b>Total Births:</b> 639<br/>
+                        <b>C-sections:</b> 194<br/>
+                        <b>C-section Rate:</b> 30%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -685,6 +1133,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION EV. KLINIKUM SCHAUMBURG </name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Zum Schaumburger Klinikum 1, 31683 Obernkirchen<br/>
+                        <b>Total Births:</b> 820<br/>
+                        <b>C-sections:</b> 290<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -694,6 +1150,14 @@
       </Placemark>
       <Placemark>
         <name>Städtisches Klinikum Braunschweig gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Salzdahlumer Straße  90, 38126 Braunschweig<br/>
+                        <b>Total Births:</b> 2037<br/>
+                        <b>C-sections:</b> 747<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -703,6 +1167,14 @@
       </Placemark>
       <Placemark>
         <name>Helios St. Marienberg Klinik Helmstedt GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Conringstraße 26, 38350 Helmstedt<br/>
+                        <b>Total Births:</b> 500<br/>
+                        <b>C-sections:</b> 155<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -712,6 +1184,14 @@
       </Placemark>
       <Placemark>
         <name>HELIOS Albert-Schweitzer-Klinik Northeim [NOM]</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Albert-Schweitzer-Weg  1 , 37154 Northeim<br/>
+                        <b>Total Births:</b> 367<br/>
+                        <b>C-sections:</b> 140<br/>
+                        <b>C-section Rate:</b> 38%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -721,6 +1201,14 @@
       </Placemark>
       <Placemark>
         <name>St. Elisabeth-Krankenhaus Salzgitter gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Liebenhaller Str. 20, 38259 Salzgitter<br/>
+                        <b>Total Births:</b> 207<br/>
+                        <b>C-sections:</b> 80<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -730,6 +1218,14 @@
       </Placemark>
       <Placemark>
         <name>Städtisches Klinikum Wolfenbüttel gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Alter Weg 80, 38302 Wolfenbüttel<br/>
+                        <b>Total Births:</b> 804<br/>
+                        <b>C-sections:</b> 259<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -739,6 +1235,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Wolfsburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Sauerbruchstraße 7, 38440 Wolfsburg<br/>
+                        <b>Total Births:</b> 1637<br/>
+                        <b>C-sections:</b> 554<br/>
+                        <b>C-section Rate:</b> 34%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -748,6 +1252,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Göttingen-Weende gGmbH - Krankenhaus Neu-Mariahilf</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Waldweg 9, 37073 Göttingen<br/>
+                        <b>Total Births:</b> 545<br/>
+                        <b>C-sections:</b> 167<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -757,6 +1269,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION KRANKENHAUS NEU BETHLEHEM gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Humboldtallee 8, 37073 Göttingen<br/>
+                        <b>Total Births:</b> 1035<br/>
+                        <b>C-sections:</b> 348<br/>
+                        <b>C-section Rate:</b> 34%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -766,6 +1286,14 @@
       </Placemark>
       <Placemark>
         <name>Gesundheitseinrichtungen Hameln-Pyrmont GmbH - Sana Klinikum Hameln-Pyrmont</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Saint-Maur-Platz 1, 31785 Hameln<br/>
+                        <b>Total Births:</b> 1154<br/>
+                        <b>C-sections:</b> 355<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -775,6 +1303,14 @@
       </Placemark>
       <Placemark>
         <name>DIAKOVERE Henriettenstift</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Schwemannstraße 17, 30559 Hannover<br/>
+                        <b>Total Births:</b> 2571<br/>
+                        <b>C-sections:</b> 806<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -784,6 +1320,14 @@
       </Placemark>
       <Placemark>
         <name>St. Bernward Krankenhaus</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Treibestr. 9, 31134 Hildesheim<br/>
+                        <b>Total Births:</b> 1663<br/>
+                        <b>C-sections:</b> 618<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -793,6 +1337,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinikum Hildesheim GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Senator-Braun-Allee 33, 31135 Hildesheim<br/>
+                        <b>Total Births:</b> 1570<br/>
+                        <b>C-sections:</b> 560<br/>
+                        <b>C-section Rate:</b> 36%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -802,6 +1354,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Kliniken Mittelweser GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Ziegelkampstraße 39, 31582 Nienburg<br/>
+                        <b>Total Births:</b> 534<br/>
+                        <b>C-sections:</b> 172<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -811,6 +1371,14 @@
       </Placemark>
       <Placemark>
         <name>KRH Klinikum Großburgwedel</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Fuhrberger Straße 8, 30938 Burgwedel<br/>
+                        <b>Total Births:</b> 435<br/>
+                        <b>C-sections:</b> 138<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -820,6 +1388,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Buchholz</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Steinbecker Straße 44, 21244 Buchholz in der Nordheide<br/>
+                        <b>Total Births:</b> 845<br/>
+                        <b>C-sections:</b> 250<br/>
+                        <b>C-section Rate:</b> 30%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -829,6 +1405,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinik Cuxhaven GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Altenwalder Chaussee 10, 27474 Cuxhaven<br/>
+                        <b>Total Births:</b> 603<br/>
+                        <b>C-sections:</b> 223<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -838,6 +1422,14 @@
       </Placemark>
       <Placemark>
         <name>Heidekreis-Klinikum GmbH Krankenhaus Walsrode</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Robert-Koch-Straße  4, 29664 Walsrode<br/>
+                        <b>Total Births:</b> 1096<br/>
+                        <b>C-sections:</b> 389<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -847,6 +1439,14 @@
       </Placemark>
       <Placemark>
         <name>Kreiskrankenhaus Osterholz</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Am Krankenhaus 4, 27711 Osterholz-Scharmbeck<br/>
+                        <b>Total Births:</b> 425<br/>
+                        <b>C-sections:</b> 139<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -856,6 +1456,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION DIAKONIEKLINIKUM ROTENBURG gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Elise-Averdieck-Str. 17, 27356 Rotenburg (Wümme)<br/>
+                        <b>Total Births:</b> 1165<br/>
+                        <b>C-sections:</b> 387<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -865,6 +1473,14 @@
       </Placemark>
       <Placemark>
         <name>Elbe Klinikum Stade</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Bremervörder Straße 111, 21682 Stade<br/>
+                        <b>Total Births:</b> 1205<br/>
+                        <b>C-sections:</b> 439<br/>
+                        <b>C-section Rate:</b> 36%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -874,6 +1490,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Winsen ( Luhe )</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Friedrich-Lichtenauer-Allee 1, 21423 Winsen ( Luhe )<br/>
+                        <b>Total Births:</b> 589<br/>
+                        <b>C-sections:</b> 211<br/>
+                        <b>C-section Rate:</b> 36%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -883,6 +1507,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinikum Uelzen GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hagenskamp 34, 29525 Uelzen<br/>
+                        <b>Total Births:</b> 620<br/>
+                        <b>C-sections:</b> 234<br/>
+                        <b>C-section Rate:</b> 38%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -892,6 +1524,14 @@
       </Placemark>
       <Placemark>
         <name>Ubbo-Emmius-Klinik gGmbH, Klinik Aurich</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wallinghausener Str. 8 - 12, 26603 Aurich<br/>
+                        <b>Total Births:</b> 1312<br/>
+                        <b>C-sections:</b> 461<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -901,6 +1541,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus St. Elisabeth gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lindenstraße 3-7, 49401 Damme<br/>
+                        <b>Total Births:</b> 457<br/>
+                        <b>C-sections:</b> 151<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -910,6 +1558,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Leer gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Augustenstraße 35 - 37, 26789 Leer<br/>
+                        <b>Total Births:</b> 1327<br/>
+                        <b>C-sections:</b> 524<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -919,6 +1575,14 @@
       </Placemark>
       <Placemark>
         <name>Niels-Stensen-Klinikum Christliches Klinikum Melle</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Engelgarten 3, 49324 Melle<br/>
+                        <b>Total Births:</b> 895<br/>
+                        <b>C-sections:</b> 295<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -928,6 +1592,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Ludmillenstift</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Ludmillenstraße 4-6, 49716 Meppen<br/>
+                        <b>Total Births:</b> 1057<br/>
+                        <b>C-sections:</b> 416<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -937,6 +1609,14 @@
       </Placemark>
       <Placemark>
         <name>Euregio-Klinik Albert-Schweitzer-Straße GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Albert-Schweitzer-Str. 10, 48527 Nordhorn<br/>
+                        <b>Total Births:</b> 980<br/>
+                        <b>C-sections:</b> 312<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -946,6 +1626,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Osnabrück GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Am Finkenhügel 1, 49076 Osnabrück<br/>
+                        <b>Total Births:</b> 1492<br/>
+                        <b>C-sections:</b> 568<br/>
+                        <b>C-section Rate:</b> 38%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -955,6 +1643,14 @@
       </Placemark>
       <Placemark>
         <name>Friesland Kliniken gGmbH St. Johannes-Hospital</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Bleichenpfad 9, 26316 Varel<br/>
+                        <b>Total Births:</b> 808<br/>
+                        <b>C-sections:</b> 243<br/>
+                        <b>C-section Rate:</b> 30%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -964,6 +1660,14 @@
       </Placemark>
       <Placemark>
         <name>Krankenhaus Johanneum</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Feldstrasse 1, 27793 Wildeshausen<br/>
+                        <b>Total Births:</b> 592<br/>
+                        <b>C-sections:</b> 198<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -973,6 +1677,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Wilhelmshaven gGmbH </name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Friedrich-Paffrath-Straße 100, 26389 Wilhelmshaven<br/>
+                        <b>Total Births:</b> 851<br/>
+                        <b>C-sections:</b> 267<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -982,6 +1694,14 @@
       </Placemark>
       <Placemark>
         <name>St. Josefs-Hospital Cloppenburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Krankenhausstraße 13, 49661 Cloppenburg<br/>
+                        <b>Total Births:</b> 574<br/>
+                        <b>C-sections:</b> 183<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -991,6 +1711,14 @@
       </Placemark>
       <Placemark>
         <name>Niels-Stensen-Kliniken Franziskus-Hospital Harderberg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Alte Rothenfelder Straße 23, 49124 Georgsmarienhütte<br/>
+                        <b>Total Births:</b> 654<br/>
+                        <b>C-sections:</b> 224<br/>
+                        <b>C-section Rate:</b> 34%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1000,6 +1728,14 @@
       </Placemark>
       <Placemark>
         <name>Ammerland-Klinik Westerstede</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lange Straße 38, 26655 Westerstede<br/>
+                        <b>Total Births:</b> 926<br/>
+                        <b>C-sections:</b> 303<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1009,6 +1745,14 @@
       </Placemark>
       <Placemark>
         <name>Marien Hospital Papenburg Aschendorf gGmbH Standort Papenburg</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hauptkanal rechts 74 - 75, 26871 Papenburg<br/>
+                        <b>Total Births:</b> 671<br/>
+                        <b>C-sections:</b> 216<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1018,6 +1762,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Bremen-Mitte</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> St.-Jürgen-Straße 1, 28205 Bremen<br/>
+                        <b>Total Births:</b> 1021<br/>
+                        <b>C-sections:</b> 354<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1027,6 +1779,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Bremen-Nord</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hammersbecker Straße 83, 28755 Bremen<br/>
+                        <b>Total Births:</b> 2059<br/>
+                        <b>C-sections:</b> 668<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1036,6 +1796,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Links der Weser</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Senator-Weßling-Str. 1, 28277 Bremen<br/>
+                        <b>Total Births:</b> 1100<br/>
+                        <b>C-sections:</b> 402<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1045,6 +1813,14 @@
       </Placemark>
       <Placemark>
         <name>AGAPLESION ALLGEMEINES KRANKENHAUS HAGEN gem. GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Grünstr. 35, 58095 Hagen<br/>
+                        <b>Total Births:</b> 1221<br/>
+                        <b>C-sections:</b> 480<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1054,6 +1830,14 @@
       </Placemark>
       <Placemark>
         <name>Herz-Jesu-Krankenhaus Hiltrup GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Westfalenstr. 109, 48165 Münster<br/>
+                        <b>Total Births:</b> 625<br/>
+                        <b>C-sections:</b> 205<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1063,6 +1847,14 @@
       </Placemark>
       <Placemark>
         <name>Sana Kliniken Düsseldorf, Standort Benrath</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Urdenbacher Allee 83, 40593 Düsseldorf<br/>
+                        <b>Total Births:</b> 608<br/>
+                        <b>C-sections:</b> 191<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1072,6 +1864,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Düsseldorf</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Kirchfeldstr. 40, 40217 Düsseldorf<br/>
+                        <b>Total Births:</b> 1630<br/>
+                        <b>C-sections:</b> 597<br/>
+                        <b>C-section Rate:</b> 37%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1081,6 +1881,14 @@
       </Placemark>
       <Placemark>
         <name>Wedau Kliniken</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Zu den Rehwiesen 9-11, 47055 Duisburg<br/>
+                        <b>Total Births:</b> 1707<br/>
+                        <b>C-sections:</b> 603<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1090,6 +1898,14 @@
       </Placemark>
       <Placemark>
         <name>Helios St. Johannes Klinik</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Dieselstr. 185, 47166 Duisburg<br/>
+                        <b>Total Births:</b> 961<br/>
+                        <b>C-sections:</b> 339<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1099,6 +1915,14 @@
       </Placemark>
       <Placemark>
         <name>Elisabeth-Krankenhaus Essen</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Klara-Kopp-Weg 1, 45138 Essen<br/>
+                        <b>Total Births:</b> 1177<br/>
+                        <b>C-sections:</b> 366<br/>
+                        <b>C-section Rate:</b> 31%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1108,6 +1932,14 @@
       </Placemark>
       <Placemark>
         <name>Alfried Krupp Krankenhaus Rüttenscheid</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Alfried-Krupp-Straße 21, 45131 Essen<br/>
+                        <b>Total Births:</b> 224<br/>
+                        <b>C-sections:</b> 73<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1117,6 +1949,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Klinikum Krefeld</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Lutherplatz 40, 47805 Krefeld<br/>
+                        <b>Total Births:</b> 1799<br/>
+                        <b>C-sections:</b> 593<br/>
+                        <b>C-section Rate:</b> 33%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1126,6 +1966,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Mülheim an der Ruhr GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wertgasse 30, 45468 Mülheim an der Ruhr<br/>
+                        <b>Total Births:</b> 914<br/>
+                        <b>C-sections:</b> 295<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1135,6 +1983,14 @@
       </Placemark>
       <Placemark>
         <name>AMEOS Klinikum St. Clemens Oberhausen</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wilhelmstraße 34, 46145 Oberhausen<br/>
+                        <b>Total Births:</b> 1050<br/>
+                        <b>C-sections:</b> 335<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1144,6 +2000,14 @@
       </Placemark>
       <Placemark>
         <name>Evangelisches Krankenhaus Oberhausen GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Virchowstraße 20, 46047 Oberhausen<br/>
+                        <b>Total Births:</b> 2140<br/>
+                        <b>C-sections:</b> 757<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1153,6 +2017,14 @@
       </Placemark>
       <Placemark>
         <name>Sana-Klinikum Remscheid GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Burger Straße 211, 42859 Remscheid<br/>
+                        <b>Total Births:</b> 1182<br/>
+                        <b>C-sections:</b> 378<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1162,6 +2034,14 @@
       </Placemark>
       <Placemark>
         <name>Städtisches Klinikum Solingen gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Gotenstraße 1, 42653 Solingen<br/>
+                        <b>Total Births:</b> 1230<br/>
+                        <b>C-sections:</b> 479<br/>
+                        <b>C-section Rate:</b> 39%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1171,6 +2051,14 @@
       </Placemark>
       <Placemark>
         <name>Helios Universitätsklinikum Wuppertal GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Heusnerstr. 40, 42283 Wuppertal<br/>
+                        <b>Total Births:</b> 1843<br/>
+                        <b>C-sections:</b> 652<br/>
+                        <b>C-section Rate:</b> 35%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1180,6 +2068,14 @@
       </Placemark>
       <Placemark>
         <name>SRH Krankenhaus Sigmaringen</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hohenzollernstrasse 40, 72488 Sigmaringen<br/>
+                        <b>Total Births:</b> 683<br/>
+                        <b>C-sections:</b> 216<br/>
+                        <b>C-section Rate:</b> 32%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1192,6 +2088,14 @@
       <name><![CDATA[>40%]]></name>
       <Placemark>
         <name>Westküstenklinikum Heide</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Esmarchstraße 50, 25746 Heide<br/>
+                        <b>Total Births:</b> 1019<br/>
+                        <b>C-sections:</b> 433<br/>
+                        <b>C-section Rate:</b> 42%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1201,6 +2105,14 @@
       </Placemark>
       <Placemark>
         <name>Kath. Marienkrankenhaus gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Alfredstraße 9, 22087 Hamburg<br/>
+                        <b>Total Births:</b> 3163<br/>
+                        <b>C-sections:</b> 1374<br/>
+                        <b>C-section Rate:</b> 43%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1210,6 +2122,14 @@
       </Placemark>
       <Placemark>
         <name>Universitätsmedizin Göttingen</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Robert-Koch-Straße 40, 37075 Göttingen<br/>
+                        <b>Total Births:</b> 1131<br/>
+                        <b>C-sections:</b> 464<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1219,6 +2139,14 @@
       </Placemark>
       <Placemark>
         <name>Städtisches Klinikum Lüneburg gemeinnützige GmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Bögelstraße 1, 21339 Lüneburg<br/>
+                        <b>Total Births:</b> 1785<br/>
+                        <b>C-sections:</b> 709<br/>
+                        <b>C-section Rate:</b> 40%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1228,6 +2156,14 @@
       </Placemark>
       <Placemark>
         <name>Bonifatius Hospital Lingen</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Wilhelmstraße 13, 49808 Lingen<br/>
+                        <b>Total Births:</b> 1391<br/>
+                        <b>C-sections:</b> 570<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1237,6 +2173,14 @@
       </Placemark>
       <Placemark>
         <name>St. Franziskus-Hospital</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Franziskusstr. 6, 49393 Lohne<br/>
+                        <b>Total Births:</b> 504<br/>
+                        <b>C-sections:</b> 217<br/>
+                        <b>C-section Rate:</b> 43%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1246,6 +2190,14 @@
       </Placemark>
       <Placemark>
         <name>Klinikum Oldenburg AöR</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Rahel-Straus-Str. 10, 26133 Oldenburg<br/>
+                        <b>Total Births:</b> 1746<br/>
+                        <b>C-sections:</b> 716<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1255,6 +2207,14 @@
       </Placemark>
       <Placemark>
         <name>Niels-Stensen-Kliniken Marienhospital Osnabrück</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Bischofsstraße 1, 49074 Osnabrück<br/>
+                        <b>Total Births:</b> 2096<br/>
+                        <b>C-sections:</b> 853<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1264,6 +2224,14 @@
       </Placemark>
       <Placemark>
         <name>Hümmling Hospital Sögel gGmbH</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Mühlenstraße 17, 49751 Sögel<br/>
+                        <b>Total Births:</b> 535<br/>
+                        <b>C-sections:</b> 214<br/>
+                        <b>C-section Rate:</b> 40%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1273,6 +2241,14 @@
       </Placemark>
       <Placemark>
         <name>St. Marienhospital Vechta</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Marienstraße 6-8, 49377 Vechta<br/>
+                        <b>Total Births:</b> 1849<br/>
+                        <b>C-sections:</b> 758<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1282,6 +2258,14 @@
       </Placemark>
       <Placemark>
         <name>Universitätsklinikum Düsseldorf</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Moorenstraße 5, 40225 Düsseldorf<br/>
+                        <b>Total Births:</b> 2080<br/>
+                        <b>C-sections:</b> 899<br/>
+                        <b>C-section Rate:</b> 43%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1291,6 +2275,14 @@
       </Placemark>
       <Placemark>
         <name>Universitätsklinikum Essen (AöR)</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Hufelandstr. 55, 45147 Essen<br/>
+                        <b>Total Births:</b> 1252<br/>
+                        <b>C-sections:</b> 522<br/>
+                        <b>C-section Rate:</b> 42%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1300,6 +2292,14 @@
       </Placemark>
       <Placemark>
         <name>Charité - Universitätsmedizin Berlin</name>
+        <description>
+                        <![CDATA[
+                        <b>Address:</b> Charitéplatz 1, 10117 Berlin<br/>
+                        <b>Total Births:</b> 1884<br/>
+                        <b>C-sections:</b> 772<br/>
+                        <b>C-section Rate:</b> 41%
+                        ]]>
+                        </description>
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
