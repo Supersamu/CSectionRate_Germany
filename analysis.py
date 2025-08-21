@@ -106,7 +106,7 @@ def create_visualizations(df: pd.DataFrame, year: int):
     z = np.polyfit(df[births_col], df['csection_rate_numeric'] * 100, 1)
     p = np.poly1d(z)
     plt.plot(df[births_col], p(df[births_col]), "r--", alpha=0.8, 
-             label=f'Trend: slope={z[0]:.4f}')
+             label=f'Trend: slope={z[0]:.3f}')
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.savefig(os.path.join(output_dir, f'size_vs_rate.png'), dpi=300, bbox_inches='tight')
