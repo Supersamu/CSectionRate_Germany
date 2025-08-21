@@ -3,12 +3,12 @@ import pandas as pd
 from collections import defaultdict
 import argparse
 import logging
-from extract import get_hospital_statistic, get_clinic_data
+from extract_from_xml import get_hospital_statistic, get_clinic_data
 from config import (
     DEFAULT_YEAR, DATA_DIR, OUTPUT_DIR, COLUMN_NAMES, 
-    DAS_FILE_SUFFIX, XML_FILE_SUFFIX, PROGRESS_INTERVAL, PRIVACY_PROTECTION_VALUE, LOG_FORMAT
+    DAS_FILE_SUFFIX, XML_FILE_SUFFIX, PROGRESS_INTERVAL, NOT_ENOUGH_BIRTHS_MARKER, LOG_FORMAT
 )
-from get_coordinates import get_coordinates_from_clinic_data
+from get_gps_coordinates import get_coordinates_from_clinic_data
 from create_kml import create_kml_from_csv
 
 def setup_logger(logfile):
@@ -30,11 +30,8 @@ def main(year:int) -> None:
     # Paths & Data Structures
     # =========================
     mypath = os.path.join(DATA_DIR, f"xml_{year}")
-    try:
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-    except Exception as e:
-        logging.error(f"Error creating output directory {OUTPUT_DIR}: {e}")
-        return
+    os.makedirs(os.path.join(OUTPUT_DIR, str(year)), exist_ok=True)
+    
 
     try:
         all_files = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
@@ -60,7 +57,7 @@ def main(year:int) -> None:
     # Process each hospital
     for idx, (IK, Standortnummer) in enumerate(zip(IK_list, Standortnummer_list)):
         if idx % PROGRESS_INTERVAL == 0:
-            logging.info(f"Working on Hospital {idx + 1} of {len(IK_list)}")
+            print(f"Working on Hospital {idx + 1} of {len(IK_list)}")
         total_births, num_csections, rate = get_hospital_statistic(IK, Standortnummer, year)
         if total_births is not None:  # Enough births occured to report statistics 
             xml_path = os.path.join(DATA_DIR, f"xml_{year}", f"{IK}-{Standortnummer}-{year}-{XML_FILE_SUFFIX}")
@@ -91,7 +88,7 @@ def main(year:int) -> None:
     ###############################
     try:
         df = pd.DataFrame.from_dict(result_dict)
-        df.to_csv(os.path.join(OUTPUT_DIR, f"hospital_statistics_{year}.csv"))
+        df.to_csv(os.path.join(OUTPUT_DIR, str(year), f"hospital_statistics.csv"))
         
         # Create KML file
         create_kml_from_csv(df, year)
@@ -107,7 +104,7 @@ def main(year:int) -> None:
 
     num_hospitals = len(result_dict[keys[0]])
     try:
-        with open(os.path.join(OUTPUT_DIR, f"full_list_{year}.txt"), "w") as f:
+        with open(os.path.join(OUTPUT_DIR, str(year), f"full_list.txt"), "w") as f:
             for hospital_num in range(num_hospitals):
                 line = "  -  ".join([f"{key}: {result_dict[key][hospital_num]}" for key in keys])
                 f.write(line + "\n")
@@ -116,9 +113,9 @@ def main(year:int) -> None:
         return
 
     try:
-        with open(os.path.join(OUTPUT_DIR, f"hospital_statistics_{year}.txt"), "w") as f:
+        with open(os.path.join(OUTPUT_DIR, str(year), f"hospital_statistics.txt"), "w") as f:
             for hospital_num in range(num_hospitals):
-                if not result_dict[f"{COLUMN_NAMES['csection_rate']} {year}"][hospital_num] == PRIVACY_PROTECTION_VALUE:
+                if not result_dict[f"{COLUMN_NAMES['csection_rate']} {year}"][hospital_num] == NOT_ENOUGH_BIRTHS_MARKER:
                     line = "  -  ".join([f"{key}: {result_dict[key][hospital_num]}" for key in keys])
                     f.write(line + "\n")
     except Exception as e:
@@ -128,17 +125,18 @@ def main(year:int) -> None:
     # Log final statistics
     total_processed = len(result_dict[COLUMN_NAMES["hospital_name"]])
     privacy_protected = sum(1 for rate in result_dict[f"{COLUMN_NAMES['csection_rate']} {year}"] 
-                           if rate == PRIVACY_PROTECTION_VALUE)
-    logging.info(f"Processing completed: {total_processed} hospitals total, {privacy_protected} privacy-protected")
+                           if rate == NOT_ENOUGH_BIRTHS_MARKER)
+    logging.info(f"Processing completed: {total_processed} hospitals total, {privacy_protected} hospitals of those with not enough births to report statistics")
     print(f"Processing completed successfully!")
     print(f"   {total_processed} hospitals processed")
-    print(f"   {privacy_protected} hospitals with privacy protection")
-    print(f"   Output saved to: {OUTPUT_DIR}")
+    print(f"   {privacy_protected} hospitals with not enough births to report statistics")
+    print(f"   Output saved to: {OUTPUT_DIR}/{year}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process C-section rates by year.")
     parser.add_argument("--year", type=int, default=DEFAULT_YEAR, help="Year to process")
     args = parser.parse_args()
     year = args.year
-    setup_logger(f'output/process_hospital_data_{year}.log')
+    os.makedirs(f'output/{year}', exist_ok=True)
+    setup_logger(f'output/{year}/process_hospital_data.log')
     main(year)

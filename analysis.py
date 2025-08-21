@@ -5,12 +5,13 @@ Data analysis and visualization functions for C-section rate analysis.
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from pathlib import Path
-from config import OUTPUT_DIR, PRIVACY_PROTECTION_VALUE, COLUMN_NAMES, DEFAULT_YEAR
+import os
+from config import OUTPUT_DIR, NOT_ENOUGH_BIRTHS_MARKER, COLUMN_NAMES, DEFAULT_YEAR
+from matplotlib.colors import LinearSegmentedColormap
 
 def load_data(year: int) -> pd.DataFrame:
     """Load and clean the processed hospital data."""
-    filepath = Path(OUTPUT_DIR) / f"hospital_statistics_{year}.csv"
+    filepath = os.path.join(OUTPUT_DIR, str(year), f"hospital_statistics.csv")
     df = pd.read_csv(filepath, index_col=0)
     
     # Clean and convert data types
@@ -19,7 +20,7 @@ def load_data(year: int) -> pd.DataFrame:
     rate_col = f"{COLUMN_NAMES['csection_rate']} {year}"
     
     # Filter out privacy-protected data for analysis
-    df_clean = df[df[rate_col] != PRIVACY_PROTECTION_VALUE].copy()
+    df_clean = df[df[rate_col] != NOT_ENOUGH_BIRTHS_MARKER].copy()
     
     # Convert numeric columns
     df_clean[births_col] = pd.to_numeric(df_clean[births_col], errors='coerce')
@@ -31,7 +32,6 @@ def load_data(year: int) -> pd.DataFrame:
     return df_clean
 
 def generate_summary_statistics(df: pd.DataFrame, year: int) -> dict:
-    """Generate comprehensive summary statistics."""
     births_col = f"{COLUMN_NAMES['total_births']} {year}"
     csections_col = f"{COLUMN_NAMES['csections']} {year}"
     
@@ -49,14 +49,11 @@ def generate_summary_statistics(df: pd.DataFrame, year: int) -> dict:
     
     return stats
 
-def create_visualizations(df: pd.DataFrame, year: int, output_dir: str = None):
-    """Create comprehensive visualizations of the data."""
-    if output_dir is None:
-        output_dir = Path(OUTPUT_DIR) / "visualizations"
-    
-    output_path = Path(output_dir)
-    output_path.mkdir(exist_ok=True)
-    
+def create_visualizations(df: pd.DataFrame, year: int):
+    output_dir = os.path.join(OUTPUT_DIR, str(year), "visualizations")
+
+    os.makedirs(output_dir, exist_ok=True)
+
     # Set style
     plt.style.use('seaborn-v0_8')
     
@@ -64,25 +61,37 @@ def create_visualizations(df: pd.DataFrame, year: int, output_dir: str = None):
     plt.figure(figsize=(12, 6))
     
     plt.subplot(1, 2, 1)
-    plt.hist(df['csection_rate_numeric'] * 100, bins=30, alpha=0.7, color='skyblue', edgecolor='black')
-    plt.axvline(df['csection_rate_numeric'].mean() * 100, color='red', linestyle='--', 
-                label=f'Mean: {df["csection_rate_numeric"].mean()*100:.1f}%')
+    # Prepare histogram data
+    rates = df['csection_rate_numeric'] * 100
+    bins = np.arange(int(rates.min()), int(rates.max()) + 2, 1)  # 1% bin width
+
+    # Create a colormap from green to yellow to red
+    cmap = LinearSegmentedColormap.from_list("green_yellow_red", ["green", "yellow", "red"])
+    n_bins = len(bins) - 1
+    colors = [cmap(i / (n_bins - 1)) for i in range(n_bins)]
+
+    # Plot histogram with colored bins
+    n, bins, patches = plt.hist(rates, bins=bins, alpha=0.7, edgecolor='black')
+    for patch, color in zip(patches, colors):
+        patch.set_facecolor(color)
+
+    plt.axvline(rates.mean(), color='red', linestyle='--', 
+                label=f'Mean: {rates.mean():.1f}%')
     plt.xlabel('C-section Rate (%)')
     plt.ylabel('Number of Hospitals')
     plt.title(f'Distribution of C-section Rates ({year})')
     plt.legend()
     plt.grid(True, alpha=0.3)
     
-    # 2. Box plot of rates
+    # 2. Violin plot of rates
     plt.subplot(1, 2, 2)
-    plt.boxplot(df['csection_rate_numeric'] * 100, patch_artist=True, 
-                boxprops=dict(facecolor='lightblue', alpha=0.7))
+    plt.violinplot(rates)
     plt.ylabel('C-section Rate (%)')
     plt.title(f'C-section Rate Distribution ({year})')
     plt.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig(output_path / f'csection_rate_distribution_{year}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(os.path.join(output_dir, f'csection_rate_distribution.png'), dpi=300, bbox_inches='tight')
     plt.close()
     
     # 3. Hospital size vs C-section rate
@@ -100,17 +109,13 @@ def create_visualizations(df: pd.DataFrame, year: int, output_dir: str = None):
              label=f'Trend: slope={z[0]:.4f}')
     plt.legend()
     plt.grid(True, alpha=0.3)
-    plt.savefig(output_path / f'size_vs_rate_{year}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(os.path.join(output_dir, f'size_vs_rate.png'), dpi=300, bbox_inches='tight')
     plt.close()
-    
-    
-    return output_path
+    return output_dir
 
-def generate_analysis_report(df: pd.DataFrame, year: int, output_file: str = None):
-    """Generate a comprehensive analysis report."""
-    if output_file is None:
-        output_file = Path(OUTPUT_DIR) / f"analysis_report_{year}.md"
-    
+def generate_analysis_report(df: pd.DataFrame, year: int):
+    output_file = os.path.join(OUTPUT_DIR, str(year), f"analysis_report.md")
+
     stats = generate_summary_statistics(df, year)
     
     report = f"""# C-Section Rate Analysis Report - {year}

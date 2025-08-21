@@ -1,13 +1,19 @@
+"""
+CI/CD-style tests for C-section rate analysis project. 
+The tests cannot run on Github, as the raw data cannot be uploaded for license reasons.
+"""
+
 import os
 import subprocess
 from config import DEFAULT_YEAR
+import pytest
 
 OUTPUT_DIR = "output"
 OUTPUT_TEST_DIR = "output_test"
 OUTPUT_FILES = [
-    f"hospital_statistics_{DEFAULT_YEAR}.csv",
-    f"full_list_{DEFAULT_YEAR}.txt",
-    f"hospital_statistics_{DEFAULT_YEAR}.txt"
+    f"hospital_statistics.csv",
+    f"full_list.txt",
+    f"hospital_statistics.txt"
 ]
 
 def run_main_script():
@@ -34,8 +40,12 @@ def test_outputs_match():
     """
     run_main_script()
     for filename in OUTPUT_FILES:
-        output_path = os.path.join(OUTPUT_DIR, filename)
-        test_path = os.path.join(OUTPUT_TEST_DIR, filename)
+        output_path = os.path.join(OUTPUT_DIR, str(DEFAULT_YEAR), filename)
+        test_path = os.path.join(OUTPUT_TEST_DIR, str(DEFAULT_YEAR), filename)
         assert os.path.exists(output_path), f"Missing output file: {output_path}"
         assert os.path.exists(test_path), f"Missing test file: {test_path}"
         assert compare_files(output_path, test_path), f"Files differ: {filename}"
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

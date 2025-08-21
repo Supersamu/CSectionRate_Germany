@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>C_sections_programming_demo_v1</name>
-    <description>First step</description>
+    <name>C-Section Rates in German Hospitals</name>
+    <description>Hospitals are grouped by the percentage of C-Sections that are performed. Location Data from OpenStreetMap, available under the Open Database License. Hospital Statistics from www.g-ba.de/qualitaetsberichte (Qualitätsberichte der Krankenhäuser, 2022)/</description>
     <Style id="icon-1899-558B2F-nodesc-normal">
       <IconStyle>
         <color>ff2f8b55</color>
@@ -178,7 +178,7 @@
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.151848,53.64112,0
+            10.1518478,53.6411202,0
           </coordinates>
         </Point>
       </Placemark>
@@ -187,7 +187,7 @@
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.814758,52.358575,0
+            9.814758,52.3585754,0
           </coordinates>
         </Point>
       </Placemark>
@@ -196,7 +196,7 @@
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.455544,51.834176,0
+            9.4555442,51.834176,0
           </coordinates>
         </Point>
       </Placemark>
@@ -205,7 +205,7 @@
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.444915,53.228518,0
+            7.444915,53.2285183,0
           </coordinates>
         </Point>
       </Placemark>
@@ -214,19 +214,19 @@
         <styleUrl>#icon-1899-558B2F-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.785557,51.235961,0
+            6.7855568,51.2359614,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>20-30%</name>
+      <name><![CDATA[20-30%]]></name>
       <Placemark>
         <name>Johanniter-Krankenhaus Geesthacht GmbH</name>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.385809,53.431525,0
+            10.3858089,53.4315254,0
           </coordinates>
         </Point>
       </Placemark>
@@ -235,7 +235,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.9918,54.064339,0
+            9.9918004,54.0643392,0
           </coordinates>
         </Point>
       </Placemark>
@@ -244,7 +244,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.116337,54.32282,0
+            10.1163371,54.3228203,0
           </coordinates>
         </Point>
       </Placemark>
@@ -253,7 +253,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.93781,53.469869,0
+            9.9378098,53.4698687,0
           </coordinates>
         </Point>
       </Placemark>
@@ -262,7 +262,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.965901,53.571793,0
+            9.965901,53.5717926,0
           </coordinates>
         </Point>
       </Placemark>
@@ -271,7 +271,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.593421,53.044492,0
+            8.5934208,53.0444917,0
           </coordinates>
         </Point>
       </Placemark>
@@ -280,7 +280,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.545815,52.258658,0
+            10.5458152,52.2586577,0
           </coordinates>
         </Point>
       </Placemark>
@@ -289,7 +289,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.548264,52.497113,0
+            10.5482638,52.4971131,0
           </coordinates>
         </Point>
       </Placemark>
@@ -298,7 +298,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.442516,51.928178,0
+            10.4425161,51.9281779,0
           </coordinates>
         </Point>
       </Placemark>
@@ -307,7 +307,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.343182,51.669395,0
+            10.343182,51.6693949,0
           </coordinates>
         </Point>
       </Placemark>
@@ -316,16 +316,16 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.318994,52.154747,0
+            10.3189944,52.1547473,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>DIAKOVERE Friederikenstift</name>
+        <name>DIAKOVERE Friederikenstift </name>
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.724387,52.37142,0
+            9.724387,52.3714202,0
           </coordinates>
         </Point>
       </Placemark>
@@ -334,7 +334,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.802795,52.384211,0
+            9.802795,52.3842111,0
           </coordinates>
         </Point>
       </Placemark>
@@ -343,7 +343,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.59849,52.30439,0
+            9.5984899,52.30439,0
           </coordinates>
         </Point>
       </Placemark>
@@ -352,7 +352,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.466315,52.493634,0
+            9.4663147,52.4936335,0
           </coordinates>
         </Point>
       </Placemark>
@@ -361,7 +361,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.135656,53.471384,0
+            9.1356565,53.4713845,0
           </coordinates>
         </Point>
       </Placemark>
@@ -370,7 +370,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.675953,53.461839,0
+            9.6759532,53.4618394,0
           </coordinates>
         </Point>
       </Placemark>
@@ -379,7 +379,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.086256,52.62889,0
+            10.0862561,52.62889,0
           </coordinates>
         </Point>
       </Placemark>
@@ -388,7 +388,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            11.079562,53.082869,0
+            11.0795617,53.082869,0
           </coordinates>
         </Point>
       </Placemark>
@@ -397,7 +397,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.231938,52.914024,0
+            9.2319378,52.9140237,0
           </coordinates>
         </Point>
       </Placemark>
@@ -406,7 +406,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.874216,52.540471,0
+            7.8742164,52.5404711,0
           </coordinates>
         </Point>
       </Placemark>
@@ -415,7 +415,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.204892,53.142595,0
+            8.2048916,53.1425951,0
           </coordinates>
         </Point>
       </Placemark>
@@ -424,7 +424,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.745387,53.125885,0
+            8.7453869,53.1258854,0
           </coordinates>
         </Point>
       </Placemark>
@@ -433,7 +433,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.835041,53.083242,0
+            8.8350409,53.0832424,0
           </coordinates>
         </Point>
       </Placemark>
@@ -442,7 +442,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.63676,53.537764,0
+            8.6367596,53.5377643,0
           </coordinates>
         </Point>
       </Placemark>
@@ -451,7 +451,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.749471,51.300359,0
+            6.7494709,51.3003594,0
           </coordinates>
         </Point>
       </Placemark>
@@ -460,7 +460,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.761427,51.417233,0
+            6.7614273,51.4172328,0
           </coordinates>
         </Point>
       </Placemark>
@@ -469,7 +469,7 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.419909,51.158085,0
+            6.4199089,51.1580847,0
           </coordinates>
         </Point>
       </Placemark>
@@ -478,28 +478,28 @@
         <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.130466,51.268337,0
+            7.1304659,51.268337,0
           </coordinates>
         </Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>30-40%</name>
+      <name><![CDATA[30-40%]]></name>
       <Placemark>
         <name>DIAKO Klinikum</name>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.42531,54.790148,0
+            9.4253104,54.7901483,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Kath. Marien-Krankenhaus Lübeck gemeinnützige GmbH</name>
+        <name>Kath. Marien-Krankenhaus Lübeck gemeinnützige GmbH </name>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.685324,53.862421,0
+            10.6853237,53.862421,0
           </coordinates>
         </Point>
       </Placemark>
@@ -508,7 +508,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.778847,53.689839,0
+            10.778847,53.6898388,0
           </coordinates>
         </Point>
       </Placemark>
@@ -517,7 +517,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.0502,54.483301,0
+            9.0502002,54.4833008,0
           </coordinates>
         </Point>
       </Placemark>
@@ -526,7 +526,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.601961,54.133151,0
+            10.6019612,54.1331514,0
           </coordinates>
         </Point>
       </Placemark>
@@ -535,7 +535,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.81181,53.654252,0
+            9.8118103,53.654252,0
           </coordinates>
         </Point>
       </Placemark>
@@ -544,7 +544,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.276815,54.239029,0
+            10.2768147,54.2390293,0
           </coordinates>
         </Point>
       </Placemark>
@@ -553,7 +553,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.657883,54.297238,0
+            9.6578833,54.2972385,0
           </coordinates>
         </Point>
       </Placemark>
@@ -562,7 +562,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.565828,54.52509,0
+            9.5658283,54.5250901,0
           </coordinates>
         </Point>
       </Placemark>
@@ -571,7 +571,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.307241,53.941861,0
+            10.3072414,53.941861,0
           </coordinates>
         </Point>
       </Placemark>
@@ -580,7 +580,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.503011,53.941714,0
+            9.5030113,53.9417141,0
           </coordinates>
         </Point>
       </Placemark>
@@ -589,7 +589,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.240658,53.509736,0
+            10.2406578,53.5097359,0
           </coordinates>
         </Point>
       </Placemark>
@@ -598,7 +598,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.007182,53.748877,0
+            10.0071822,53.7488769,0
           </coordinates>
         </Point>
       </Placemark>
@@ -607,7 +607,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.707863,53.838759,0
+            10.7078632,53.8387592,0
           </coordinates>
         </Point>
       </Placemark>
@@ -616,7 +616,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.144883,54.328446,0
+            10.1448833,54.328446,0
           </coordinates>
         </Point>
       </Placemark>
@@ -625,7 +625,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.975376,53.590905,0
+            9.9753758,53.5909051,0
           </coordinates>
         </Point>
       </Placemark>
@@ -634,7 +634,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.036479,53.606274,0
+            10.0364792,53.6062742,0
           </coordinates>
         </Point>
       </Placemark>
@@ -643,7 +643,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.89889,53.554621,0
+            9.8988903,53.5546206,0
           </coordinates>
         </Point>
       </Placemark>
@@ -652,7 +652,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.088066,53.569901,0
+            10.0880663,53.5699009,0
           </coordinates>
         </Point>
       </Placemark>
@@ -661,7 +661,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.906,53.630568,0
+            9.9059997,53.630568,0
           </coordinates>
         </Point>
       </Placemark>
@@ -670,7 +670,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.030128,53.674141,0
+            10.0301284,53.6741411,0
           </coordinates>
         </Point>
       </Placemark>
@@ -679,16 +679,16 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.236002,53.485779,0
+            10.2360022,53.4857786,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>AGAPLESION EV. KLINIKUM SCHAUMBURG</name>
+        <name>AGAPLESION EV. KLINIKUM SCHAUMBURG </name>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.105367,52.263914,0
+            9.1053674,52.2639141,0
           </coordinates>
         </Point>
       </Placemark>
@@ -697,7 +697,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.545844,52.237934,0
+            10.5458436,52.2379345,0
           </coordinates>
         </Point>
       </Placemark>
@@ -706,7 +706,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.999309,52.231876,0
+            10.9993091,52.2318762,0
           </coordinates>
         </Point>
       </Placemark>
@@ -715,7 +715,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.978864,51.729808,0
+            9.9788643,51.7298077,0
           </coordinates>
         </Point>
       </Placemark>
@@ -724,7 +724,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.371854,52.045425,0
+            10.3718545,52.0454249,0
           </coordinates>
         </Point>
       </Placemark>
@@ -733,7 +733,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.533651,52.179908,0
+            10.5336512,52.179908,0
           </coordinates>
         </Point>
       </Placemark>
@@ -742,7 +742,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.768597,52.413673,0
+            10.7685967,52.4136733,0
           </coordinates>
         </Point>
       </Placemark>
@@ -751,7 +751,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.942581,51.541667,0
+            9.9425812,51.5416674,0
           </coordinates>
         </Point>
       </Placemark>
@@ -760,7 +760,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.94312,51.540763,0
+            9.9431197,51.5407629,0
           </coordinates>
         </Point>
       </Placemark>
@@ -769,7 +769,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.351581,52.10754,0
+            9.3515814,52.1075395,0
           </coordinates>
         </Point>
       </Placemark>
@@ -778,7 +778,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.82757,52.363273,0
+            9.8275698,52.3632727,0
           </coordinates>
         </Point>
       </Placemark>
@@ -787,7 +787,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.947441,52.147158,0
+            9.9474414,52.1471581,0
           </coordinates>
         </Point>
       </Placemark>
@@ -796,7 +796,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.976689,52.151352,0
+            9.9766887,52.1513519,0
           </coordinates>
         </Point>
       </Placemark>
@@ -805,7 +805,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.224454,52.635718,0
+            9.224454,52.6357175,0
           </coordinates>
         </Point>
       </Placemark>
@@ -814,7 +814,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.861977,52.496356,0
+            9.861977,52.4963561,0
           </coordinates>
         </Point>
       </Placemark>
@@ -823,7 +823,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.871635,53.333273,0
+            9.8716353,53.3332728,0
           </coordinates>
         </Point>
       </Placemark>
@@ -832,7 +832,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.692786,53.85275,0
+            8.6927855,53.8527502,0
           </coordinates>
         </Point>
       </Placemark>
@@ -841,7 +841,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.586968,52.859178,0
+            9.5869676,52.8591776,0
           </coordinates>
         </Point>
       </Placemark>
@@ -850,7 +850,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.793661,53.233117,0
+            8.7936612,53.2331173,0
           </coordinates>
         </Point>
       </Placemark>
@@ -868,7 +868,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.441875,53.596262,0
+            9.4418748,53.5962617,0
           </coordinates>
         </Point>
       </Placemark>
@@ -877,7 +877,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.200167,53.350559,0
+            10.2001667,53.3505593,0
           </coordinates>
         </Point>
       </Placemark>
@@ -886,7 +886,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.532286,52.971977,0
+            10.5322858,52.9719771,0
           </coordinates>
         </Point>
       </Placemark>
@@ -895,7 +895,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.498663,53.468142,0
+            7.4986632,53.468142,0
           </coordinates>
         </Point>
       </Placemark>
@@ -904,7 +904,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.194257,52.520935,0
+            8.1942571,52.5209349,0
           </coordinates>
         </Point>
       </Placemark>
@@ -913,7 +913,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.458229,53.235873,0
+            7.4582287,53.2358734,0
           </coordinates>
         </Point>
       </Placemark>
@@ -922,7 +922,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.336058,52.198644,0
+            8.3360576,52.1986437,0
           </coordinates>
         </Point>
       </Placemark>
@@ -931,7 +931,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.293,52.688716,0
+            7.2929998,52.6887165,0
           </coordinates>
         </Point>
       </Placemark>
@@ -940,7 +940,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.065972,52.443033,0
+            7.0659723,52.4430328,0
           </coordinates>
         </Point>
       </Placemark>
@@ -958,7 +958,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.13958,53.391942,0
+            8.13958,53.3919425,0
           </coordinates>
         </Point>
       </Placemark>
@@ -967,16 +967,16 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.432467,52.893744,0
+            8.4324674,52.8937444,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Klinikum Wilhelmshaven gGmbH</name>
+        <name>Klinikum Wilhelmshaven gGmbH </name>
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.082819,53.545745,0
+            8.0828192,53.5457453,0
           </coordinates>
         </Point>
       </Placemark>
@@ -985,7 +985,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.040367,52.847258,0
+            8.0403668,52.8472582,0
           </coordinates>
         </Point>
       </Placemark>
@@ -994,7 +994,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.072329,52.237767,0
+            8.0723288,52.2377674,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1003,7 +1003,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.918522,53.257492,0
+            7.9185221,53.2574925,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1012,7 +1012,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.390106,53.083578,0
+            7.3901056,53.0835782,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1021,7 +1021,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.840024,53.074569,0
+            8.840024,53.0745692,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1030,7 +1030,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.622831,53.183962,0
+            8.6228308,53.1839621,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1039,7 +1039,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.818738,53.035798,0
+            8.8187376,53.0357981,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1048,7 +1048,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.466078,51.354026,0
+            7.4660777,51.3540265,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1057,7 +1057,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.634403,51.908847,0
+            7.6344033,51.908847,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1066,7 +1066,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.871053,51.153206,0
+            6.8710534,51.1532061,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1075,7 +1075,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.773065,51.213091,0
+            6.7730653,51.2130908,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1084,7 +1084,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.783873,51.396615,0
+            6.7838729,51.396615,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1093,7 +1093,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.760606,51.490144,0
+            6.7606062,51.490144,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1102,7 +1102,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.032822,51.445437,0
+            7.0328223,51.445437,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1111,7 +1111,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.007606,51.426264,0
+            7.0076064,51.426264,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1120,7 +1120,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.566087,51.320945,0
+            6.5660868,51.3209451,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1129,7 +1129,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.882417,51.424596,0
+            6.8824168,51.4245961,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1138,7 +1138,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.84481,51.517511,0
+            6.8448097,51.5175112,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1147,7 +1147,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.866275,51.474424,0
+            6.8662749,51.4744239,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1156,7 +1156,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.186789,51.161546,0
+            7.1867887,51.161546,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1165,7 +1165,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.069422,51.185478,0
+            7.0694225,51.1854782,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1174,7 +1174,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.173906,51.275262,0
+            7.173906,51.2752619,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1183,7 +1183,7 @@
         <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.226124,48.096203,0
+            9.2261244,48.0962031,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1195,7 +1195,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.077679,54.199898,0
+            9.0776793,54.1998975,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1204,7 +1204,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.03074,53.559033,0
+            10.0307399,53.559033,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1213,7 +1213,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            9.942828,51.550819,0
+            9.9428282,51.5508193,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1222,7 +1222,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            10.395866,53.240222,0
+            10.3958656,53.2402219,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1231,7 +1231,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.315308,52.524578,0
+            7.3153083,52.5245781,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1240,7 +1240,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.24088,52.664618,0
+            8.2408797,52.6646184,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1249,7 +1249,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.217153,53.111788,0
+            8.2171526,53.111788,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1258,7 +1258,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.0534,52.27023,0
+            8.0533997,52.2702299,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1267,7 +1267,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            7.519517,52.843536,0
+            7.5195172,52.8435359,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1276,7 +1276,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            8.287163,52.725453,0
+            8.2871627,52.725453,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1285,7 +1285,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.789821,51.195968,0
+            6.7898208,51.1959679,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1294,7 +1294,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            6.988009,51.434706,0
+            6.9880092,51.4347062,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1303,7 +1303,7 @@
         <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
-            13.377758,52.525852,0
+            13.3777575,52.5258523,0
           </coordinates>
         </Point>
       </Placemark>

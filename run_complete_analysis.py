@@ -2,6 +2,7 @@
 run_complete_analysis.py
 Complete analysis pipeline that runs all components.
 """
+import os
 import argparse
 from pathlib import Path
 import time
@@ -73,5 +74,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     year = args.year
-    setup_logger(f'output/complete_analysis_{year}.log')
+    os.makedirs(f'output/{year}', exist_ok=True)
+    setup_logger(f'output/{year}/complete_analysis.log')
     main(year)

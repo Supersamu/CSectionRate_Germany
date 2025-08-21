@@ -5,7 +5,7 @@ Create KML files from hospital statistics CSV data
 import os
 import pandas as pd
 import argparse
-from config import DEFAULT_YEAR, OUTPUT_DIR, COLUMN_NAMES, PRIVACY_PROTECTION_VALUE
+from config import DEFAULT_YEAR, OUTPUT_DIR, COLUMN_NAMES, NOT_ENOUGH_BIRTHS_MARKER
 
 
 def create_kml_from_csv(df, year):
@@ -188,10 +188,10 @@ def create_kml_from_csv(df, year):
 
     # Create folders for each category
     categories = [
-        ("<20%", "558B2F", lambda rate: rate < 20.0),
-        ("20-30%", "FFEA00", lambda rate: 20.0 <= rate < 30.0),
-        ("30-40%", "F9A825", lambda rate: 30.0 <= rate < 40.0),
-        (">40%", "A52714", lambda rate: rate >= 40.0)
+        ("<20%", "558B2F", lambda rate: rate < 20),
+        ("20-30%", "FFEA00", lambda rate: 20 <= rate < 30),
+        ("30-40%", "F9A825", lambda rate: 30 <= rate < 40),
+        (">40%", "A52714", lambda rate: rate >= 40)
     ]
     
     rate_column = f"{COLUMN_NAMES['csection_rate']} {year}"
@@ -205,10 +205,10 @@ def create_kml_from_csv(df, year):
         for idx, row in df.iterrows():
             try:
                 # Skip privacy protected entries
-                if row[rate_column] == PRIVACY_PROTECTION_VALUE:
+                if row[rate_column] == NOT_ENOUGH_BIRTHS_MARKER:
                     continue
                     
-                rate = float(row[rate_column])
+                rate = row[rate_column]
                 
                 # Check if coordinates are available
                 latitude = row.get('Latitude', None)
@@ -260,7 +260,7 @@ def create_kml_from_csv(df, year):
 </kml>'''
     
     # Write KML file
-    kml_filename = os.path.join(OUTPUT_DIR, f"hospital_csection_rates_{year}.kml")
+    kml_filename = os.path.join(OUTPUT_DIR, str(year), f"hospital_csection_rates.kml")
     try:
         with open(kml_filename, 'w', encoding='utf-8') as f:
             f.write(kml_content)
@@ -272,16 +272,16 @@ def create_kml_from_csv(df, year):
 
 
 def main(year):
-    csv_file = os.path.join(OUTPUT_DIR, f"hospital_statistics_{year}.csv")
-    
+    csv_file = os.path.join(OUTPUT_DIR, str(year), f"hospital_statistics.csv")
+
     if not os.path.exists(csv_file):
         print(f"CSV file not found: {csv_file}")
         print("Please run process_hospital_data.py first or specify a valid CSV file")
         return
     
     df = pd.read_csv(csv_file)
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
+    os.makedirs(os.path.join(OUTPUT_DIR, str(year)), exist_ok=True)
+
     kml_file = create_kml_from_csv(df, year, OUTPUT_DIR)
     if kml_file:
         print(f"Success! KML file created at: {kml_file}")

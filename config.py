@@ -14,7 +14,7 @@ OUTPUT_DIR = "output"
 # XML Processing Constants
 # =========================
 TARGET_TAG_STATISTIC = "Ergebnis_ID"
-TARGET_VALUE = "52249"  # Number of C-sections
+TARGET_VALUE = "52249"  # Births and C-sections
 
 # =========================
 # Output Column Names
@@ -29,7 +29,7 @@ COLUMN_NAMES = {
     "csection_rate": "Kaiserschnitt %",
     "ik": "IK",
     "location_number": "Standortnummer"
-}
+}  # In order to have german column names in the resulting .csv file
 
 # =========================
 # File Extensions
@@ -45,5 +45,5 @@ LOG_FORMAT = '%(asctime)s %(levelname)s: %(message)s'
 # =========================
 # Processing Configuration
 # =========================
-PROGRESS_INTERVAL = 100  # Log progress every N hospitals
-PRIVACY_PROTECTION_VALUE = "Datenschutz"  # Placeholder for privacy-protected values in xml-files
+PROGRESS_INTERVAL = 100  # Print progress every N hospitals
+NOT_ENOUGH_BIRTHS_MARKER = "Datenschutz"  # Placeholder for privacy-protected values in xml-files
