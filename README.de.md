@@ -12,7 +12,7 @@ Kaiserschnitt-Karte für 2022: [Link](https://www.google.com/maps/d/u/0/edit?mid
 ## Warum dieses Projekt?
 Weltweit nehmen die Raten von Kaiserschnitten zu, ohne dass ein signifikanter Nutzen für die Gesundheit der Frauen oder ihrer Kinder erkennbar wäre. Die Weltgesundheitsorganisation (WHO) zielt darauf ab, diese Rate zu senken, und hat [Empfehlungen](https://www.who.int/publications/i/item/9789241550338) zu nicht-klinischen Interventionen veröffentlicht, um unnötige Kaiserschnitte zu reduzieren.
 
-Das Statistische Bundesamt [berichtete](https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/02/PD23_N009_231.html), dass sich im Vergleich zu 1991 die Kaiserschnittrate im Jahr 2021 von 15,3 % auf 30,9 % verdoppelte. Die WHO [berichtete 2015](https://www.who.int/publications/i/item/WHO-RHR-15.02), dass >es keine Hinweise darauf gibt, dass eine Erhöhung der Kaiserschnittrate über 10 % hinaus die mütterliche oder die Neugeborenensterblichkeit verbessert. 
+Das Statistische Bundesamt [berichtete](https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/02/PD23_N009_231.html), dass sich im Vergleich zu 1991 die Kaiserschnittrate im Jahr 2021 von 15,3 % auf 30,9 % verdoppelte. Die WHO [berichtete 2015](https://www.who.int/publications/i/item/WHO-RHR-15.02), dass es keine Hinweise darauf gibt, dass eine Erhöhung der Kaiserschnittrate über 10 % hinaus die mütterliche oder die Neugeborenensterblichkeit verbessert. 
 Wenn 30 % der Geburten ein Kaiserschnitt sind und 10 % ausreichen, um die maternale und perinatale Sterblichkeit zu senken, dann werden zwei von drei Kaiserschnitten in Deutschland potenziell ohne medizinische Notwendigkeit durchgeführt. Meine Analysen der Jahre 2022 und 2023 zeigen einen Anstieg der Kaiserschnittraten in Krankenhäusern von 32,3 % im Jahr 2022 auf 33,0 % im Jahr 2023.
 
 Allerdings ist die Sterblichkeit nicht das einzige Anliegen.
@@ -66,7 +66,7 @@ CSectionRate_Germany/
 2. Virtuelle Umgebung einrichten:
    ```bash
    python -m venv .venv
-   .venv\Scriptsctivate  # Windows
+   .venv\Scripts\activate  # Windows
    ```
 3. Abhängigkeiten installieren:
    ```bash
@@ -97,7 +97,7 @@ Krankenhausstatistiken von www.g-ba.de/qualitaetsberichte (Qualitätsberichte de
 - Individualisierte Karten in Betracht ziehen, z. B. für VBACs (Vaginalgeburt nach Kaiserschnitt)
 - Veränderungen von Krankenhäusern im Zeitverlauf nachverfolgen (Es werden mehr Daten benötigt, da gemäß Qualitätsberichten die während Covid erhobenen Daten nicht vergleichbar sind)
 
-## Haftungsausschluss
+## Hinweise
 - Da nur Krankenhäuser mit geburtshilflichen Abteilungen analysiert wurden, die die genaue Anzahl der Geburten und Kaiserschnitte gemeldet haben (bei einer geringen Anzahl von Geburten muss das Krankenhaus die Daten aus Gründen der Patient*innenvertraulichkeit nicht melden), ist der folgende Hinweis erforderlich:
 Die Qualitätsberichte der Krankenhäuser werden vorliegend nur teilweise bzw. auszugsweise genutzt. Eine vollständige unveränderte Darstellung der Qualitätsberichte der Krankenhäuser erhalten Sie unter www.g-ba.de/qualitaetsberichte.
 - Da die (GPS-)Standortdaten nicht aus den Qualitätsberichten, sondern aus einer externen Quelle (OpenStreetMap) stammen, ist der folgende Hinweis erforderlich:
