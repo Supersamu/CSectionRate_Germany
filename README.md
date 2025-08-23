@@ -13,7 +13,7 @@ C-section map for 2022: [Link](https://www.google.com/maps/d/u/0/edit?mid=1DFZHt
 There is a worldwide increase in caesarean section rates, without significant benefit to the health of women or their babies. The World Health Organization (WHO) aims to reduce this rate and has published [recommendations](https://www.who.int/publications/i/item/9789241550338) on non-clinical interventions to reduce unnecessary caesarean sections.
 
 The Federal Statistical Office of Germany (Statistisches Bundesamt) [reported](https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/02/PD23_N009_231.html) that, compared to 1991, the C-section rates in 2021 doubled from 15.3% to 30.9%. Meanwhile, the WHO [reported in 2015](https://www.who.int/publications/i/item/WHO-RHR-15.02) that >there is no evidence that increasing the C-section rate above 10% improves maternal or newborn mortality. 
-If 30% of births are a C-section and 10% are enough to reduce the maternal and perinatal mortality rates, then two out of three C-sections in Germany are potentially being performed without medical necessity. 
+If 30% of births are a C-section and 10% are enough to reduce the maternal and perinatal mortality rates, then two out of three C-sections in Germany are potentially being performed without medical necessity. My analyses of the years 2022 and 2023 shows an increase of C-section rates in hospitals from 32.3% for 2022 to 33.0% in 2023.
 
 However, mortality is not the only concern.
 Nevertheless, [medically unnecessary C-sections are a public health concern and their rate should be diminished](https://onlinelibrary.wiley.com/doi/full/10.1002/hsr2.1274). 
@@ -89,3 +89,10 @@ Hospital Statistics from www.g-ba.de/qualitaetsberichte (Qualitätsberichte der 
 
 ## License
 [MIT](LICENSE)
+
+## Future steps
+- Remove outlier hospitals (with too few births) from plots as they skew the histogram and the correlation plot.
+- Calculate statistical significance of hospitals being above the average C-section rate of Germany
+- Create map showing risks of C-section in an area
+- Consider individualized maps for e.g. VBACs (Vaginal Birth after C-Section)
+- Track hospital changes over time (More data is needed, as according to the quality reports, the data collected during Covid is not comparable)
