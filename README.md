@@ -3,6 +3,8 @@
 ## Project Overview
 
 This project analyzes cesarean section (C-section) rates across German hospitals using structured XML data from publically available hospital quality reports. The analysis extracts, processes, and transforms hospital statistics into actionable insights for mothers and parents that want to make an informed choice about their preferred location of delivery.
+C-section map for 2023: [Link](https://www.google.com/maps/d/u/0/edit?mid=1WXZwVSqyD3cogWQ6pkaoDNaeN_GhZN4&usp=sharing)
+C-section map for 2022: [Link](https://www.google.com/maps/d/u/0/edit?mid=1DFZHtyN63QHYThzrG3YtIJKUQQH8U24&usp=sharing)
 
 ## Why this project?
 There is a worldwide increase in caesarean section rates, without significant benefit to the health of women or their babies. The World Health Organization (WHO) aims to reduce this rate and has published [recommendations](https://www.who.int/publications/i/item/9789241550338) on non-clinical interventions to reduce unnecessary caesarean sections.
