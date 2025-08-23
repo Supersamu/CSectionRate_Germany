@@ -11,7 +11,7 @@
 9,Klinik Preetz,Plön,Am Krankenhaus 5,24306,98,29,30,260100820,771667000,54.2390293,10.2768147
 10,imland Klinik Rendsburg,Rendsburg,Lilienstr. 20-28,24768,956,371,39,260100875,773201000,54.2972385,9.6578833
 11,HELIOS Klinik Schleswig GmbH,Schleswig,St. Jürgener Straße 1-3,24837,847,275,32,260100911,773094000,54.5250901,9.5658283
-12,SEGEBERGER KLINIKEN GMBH-Standort Bad Segeberg,Bad Segeberg,Klosterkamp 1a,23795,650,208,32,260101126,771942000,53.941861,10.3072414
+12,SEGEBERGER KLINIKEN GMBH-Standort Bad Segeberg,Bad Segeberg,Klosterkamp 1,23795,650,208,32,260101126,771942000,53.9418613,10.3076794
 13,Klinikum Itzehoe,Itzehoe,Robert-Koch-Str. 2,25524,1769,689,39,260101137,772665000,53.9417141,9.5030113
 14,Krankenhaus Reinbek St. Adolf-Stift GmbH,Reinbek,Hamburger Straße 41,21465,683,239,35,260101193,772660000,53.5097359,10.2406578
 15,FEK - Friedrich-Ebert-Krankenhaus Neumünster GmbH,Neumünster,Friesenstraße 11,24534,953,216,23,260101488,772073000,54.0643392,9.9918004
@@ -24,9 +24,9 @@
 22,Asklepios Klinik Barmbek,Hamburg,Rübenkamp 220,22307,2948,1118,38,260200035,772584000,53.6062742,10.0364792
 23,Asklepios Klinik Altona,Hamburg,Paul-Ehrlich-Straße 1,22763,3450,1318,38,260200068,773229000,53.5546206,9.8988903
 24,Asklepios Klinik Wandsbek,Hamburg,Alphonsstraße 14,22043,961,357,37,260200104,772924000,53.5699009,10.0880663
-25,Albertinen-Krankenhaus / Albertinen-Haus gemeinnützige GmbH,Hamburg,Süntelstraße 11a,22457,2550,769,30,260200171,773271000,53.630568,9.9059997
+25,Albertinen-Krankenhaus / Albertinen-Haus gemeinnützige GmbH,Hamburg,Süntelstraße 11,22457,2550,769,30,260200171,773271000,53.630568,9.9059997
 26,Evangelisches Amalie Sieveking Krankenhaus,Hamburg,Haselkamp 33,22359,1236,238,19,260200206,772845000,53.6411202,10.1518478
-27,Helios Mariahilf Klinik Hamburg,Hamburg,Stader Straße 203 c,21075,1762,509,29,260200386,773111000,53.4698687,9.9378098
+27,Helios Mariahilf Klinik Hamburg,Hamburg,Stader Straße 203 ,21075,1762,509,29,260200386,773111000,53.4705307,9.9409238
 28,Kath. Marienkrankenhaus gGmbH,Hamburg,Alfredstraße 9,22087,3163,1374,43,260200400,772533000,53.559033,10.0307399
 29,Asklepios Klinik Nord - Heidberg,Hamburg,Tangstedter Landstraße 400,22417,1783,659,37,260200865,773463000,53.6741411,10.0301284
 30,AGAPLESION BETHESDA KRANKENHAUS BERGEDORF GgmbH,Hamburg,Glindersweg 80,21029,639,194,30,260200901,772680000,53.4857786,10.2360022
@@ -68,10 +68,10 @@
 66,Heidekreis-Klinikum GmbH Krankenhaus Walsrode,Walsrode,Robert-Koch-Straße  4,29664,1096,389,35,260330203,773225000,52.8591776,9.5869676
 67,Städtisches Klinikum Lüneburg gemeinnützige GmbH,Lüneburg,Bögelstraße 1,21339,1785,709,40,260330361,772578000,53.2402219,10.3958656
 68,Kreiskrankenhaus Osterholz,Osterholz-Scharmbeck,Am Krankenhaus 4,27711,425,139,33,260330394,771364000,53.2331173,8.7936612
-69,AGAPLESION DIAKONIEKLINIKUM ROTENBURG gemeinnützige GmbH,Rotenburg (Wümme),Elise-Averdieck-Str. 17,27356,1165,387,33,260330452,773303000,53.10522,9.412896
+69,AGAPLESION DIAKONIEKLINIKUM ROTENBURG gemeinnützige GmbH,Rotenburg,Elise-Averdieck-Str. 17,27356,1165,387,33,260330452,773303000,53.10522,9.412896
 70,Elbe Klinikum Stade,Stade,Bremervörder Straße 111,21682,1205,439,36,260330500,771503000,53.5962617,9.4418748
-71,"Aller-Weser-Klinik gGmbH, Krankenhaus Verden",Verden (Aller),Eitzer Straße 20,27283,697,193,28,260330566,773344000,52.9140237,9.2319378
-72,Krankenhaus Winsen ( Luhe ),Winsen ( Luhe ),Friedrich-Lichtenauer-Allee 1,21423,589,211,36,260330599,772482000,53.3505593,10.2001667
+71,"Aller-Weser-Klinik gGmbH, Krankenhaus Verden",Verden,Eitzer Straße 20,27283,697,193,28,260330566,773344000,52.9140237,9.2319378
+72,Krankenhaus Winsen ( Luhe ),Winsen,Friedrich-Lichtenauer-Allee 1,21423,589,211,36,260330599,772482000,53.3505593,10.2001667
 73,Helios Klinikum Uelzen GmbH,Uelzen,Hagenskamp 34,29525,620,234,38,260330793,771200000,52.9719771,10.5322858
 74,Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH,Ankum,Lingener Straße 11,49577,680,197,29,260340012,771557000,52.5404711,7.8742164
 75,"Ubbo-Emmius-Klinik gGmbH, Klinik Aurich",Aurich,Wallinghausener Str. 8 - 12,26603,1312,461,35,260340034,772239000,53.468142,7.4986632
@@ -125,5 +125,515 @@
 123,Städtisches Klinikum Solingen gemeinnützige GmbH,Solingen,Gotenstraße 1,42653,1230,479,39,260510871,771176000,51.1854782,7.0694225
 124,Helios Universitätsklinikum Wuppertal GmbH,Wuppertal,Heusnerstr. 40,42283,1843,652,35,260510906,772691000,51.2752619,7.173906
 125,AGAPLESION BETHESDA KRANKENHAUS WUPPERTAL gemeinnützige GmbH,Wuppertal,Hainstraße 35,42109,1046,247,24,260510940,772234000,51.268337,7.1304659
-126,SRH Krankenhaus Sigmaringen,Sigmaringen,Hohenzollernstrasse 40,72488,683,216,32,260841041,772740000,48.0962031,9.2261244
-127,Charité - Universitätsmedizin Berlin,Berlin,Charitéplatz 1,10117,1884,772,41,261101015,772563000,52.5258523,13.3777575
+126,St.-Clemens-Hospital Geldern,Geldern,Clemensstraße 6,47608,1071,368,34,260510984,773026000,51.5280212,6.3273348
+127,Katholisches-Karl-Leisner-Klinikum gGmbH  Standort St.-Antonius-Hospital,Kleve,Albersallee 5-7,47533,1252,373,30,260511031,772766000,51.772775,6.1353483
+128,St. Josefs Krankenhaus Hilden,Hilden,Walder Straße 34-38,40724,546,204,37,260511097,771411000,51.1681746,6.9430258
+129,St. Martinus Krankenhaus,Langenfeld,Klosterstrasse 32,40764,514,194,38,260511111,771247000,51.1301078,6.9425801
+130,Evangelisches Krankenhaus Mettmann GmbH,Mettmann,Gartenstr. 4-8,40822,460,149,32,260511144,771265000,51.2505573,6.969992
+131,Sankt Marien Krankenhaus,Ratingen,Werdener Straße 3,40878,245,75,31,260511166,771055000,51.3003348,6.8524284
+132,Rheinland Klinikum Grevenbroich Elisabethkrankenhaus,Grevenbroich,Von-Werth-Straße 5,41515,Datenschutz,Datenschutz,Datenschutz,260511257,771861000,51.0911123,6.5937321
+133,Rheinland Klinikum Dormagen,Dormagen,Dr.-Geldmacher-Straße 20,41540,612,184,30,260511257,771862000,51.0729097,6.8087699
+134,Johanna-Etienne-Krankenhaus,Neuss,Am Hasenberg 46,41462,784,296,38,260511280,771507000,51.2150197,6.6600658
+135,Hospital zum Heiligen Geist Kempen GmbH & Co. KG,Kempen,von-Broichhausen-Allee 1,47906,547,193,35,260511348,773342000,51.3632544,6.4110946
+136,Allgemeines Krankenhaus Viersen GmbH,Viersen,Hoserkirchweg 63,41747,980,324,33,260511428,771955000,51.2514473,6.3828462
+137,St. Vinzenz Hospital,Dinslaken,Dr.-Otto-Seidel-Straße 31-33,46535,846,287,34,260511462,771827000,51.5600406,6.7274335
+138,St. Josef Krankenhaus GmbH Moers - Betriebsstätte St. Josef Krankenhaus Moers,Moers,Asberger Str. 4,47441,870,273,31,260511509,771226000,51.4454023,6.6410419
+139,Krankenhaus Bethanien für die Grafschaft Moers,Moers,Bethanienstr. 21,47441,1568,610,39,260511510,772474000,51.4617039,6.6338422
+140,Marien-Hospital gGmbH,Wesel,Pastor-Janßen-Straße 8-38,46483,1358,516,38,260511554,772359000,51.6555381,6.6114467
+141,"Krankenhaus Neuwerk ""Maria von den Aposteln"" gGmbH",Mönchengladbach,Dünner Straße 214-216,41066,751,223,30,260511770,772425000,51.2249677,6.4705865
+142,Rheinland Klinikum Lukaskrankenhaus Neuss,Neuss,Preußenstraße 84,41464,1959,642,33,260511781,772188000,51.1923506,6.6701165
+143, Helios Klinikum Niederberg Tagesklinik für Psychiatrie,Heiligenhaus,Südring 161,42579,Datenschutz,Datenschutz,Datenschutz,260512032,771584000,51.3236292,6.9665863
+144,Helios Klinikum Niederberg,Velbert,Robert-Koch-Straße 2,42549,838,260,31,260512032,771585000,51.3507986,7.0129852
+145,Helios St. Anna Klinik Duisburg,Duisburg,Albertus-Magnus Straße 33,47259,489,192,39,260513282,772651000,51.3648738,6.7551326
+146,Uniklinik RWTH Aachen - Franziskus,Aachen,Morillenhang 27,52074,1282,514,40,260530012,771450000,50.7653801,6.0695337
+147,Marienhospital Aachen,Aachen,Zeise 4,52066,663,196,30,260530023,771888000,50.762603,6.0953768
+148,Luisenhospital Aachen,Aachen,Boxgraben 99,52064,926,235,25,260530056,772078000,50.7676431,6.076747
+149,Universitätsklinikum Bonn,Bonn,Venusberg-Campus 1,53127,2709,1190,44,260530103,772247000,50.7007753,7.101282
+150,Gemeinschaftskrankenhaus Bonn St. Elisabeth St. Petrus St. Johannes gGmbH,Bonn,Bonner Talweg 4-6,53113,582,220,38,260530114,772222000,50.7283209,7.0984631
+151,GFO Kliniken Bonn - Betriebstätte St. Marien-Hospital,Bonn,Robert-Koch-Strasse 1,53115,2136,629,29,260530192,771851000,50.7178205,7.0946458
+152,Johanniter GmbH - Johanniter Krankenhaus Bonn,Bonn,Johanniterstr. 3-5,53113,800,269,34,260530205,771938000,50.7126513,7.1319234
+153,Universitätsklinikum Köln,Köln,Kerpener Straße 62,50937,1937,981,51,260530283,773491000,50.9236351,6.9170838
+154,Kliniken der Stadt Köln gGmbH - Krankenhaus Holweide,Köln,Neufelder Straße 32,51067,1431,658,46,260530318,772851000,50.96657,7.0561325
+155,Heilig Geist-Krankenhaus,Köln,Graseggerstr. 105,50737,1643,425,26,260530396,772936000,50.9916327,6.9253461
+156,Krankenhaus der Augustinerinnen,Köln,Jakobstr. 27-31,50678,1974,619,31,260530421,772871000,50.9248385,6.9570677
+157,St. Elisabeth-Krankenhaus GmbH,Köln,Werthmannstr. 1,50935,1558,503,32,260530476,772347000,50.9234619,6.8975062
+158,Evangelisches Krankenhaus Kalk gGmbH,Köln,Buchforststr. 2,51103,1044,251,24,260530498,771183000,50.9412288,7.0093102
+159,Evangelisches Klinikum Köln Weyertal GmbH,Köln,Weyertal 76,50931,1003,290,29,260530502,771243000,50.9275119,6.9256573
+160,Krankenhaus Porz am Rhein gGmbH,Köln,Urbacher Weg 19,51149,1466,512,35,260530524,771240000,50.8924708,7.0510026
+161,Klinikum Leverkusen gGmbH,Leverkusen,Am Gesundheitspark 11,51375,2141,769,36,260530579,771766000,51.0323417,7.0320199
+162,Eifelklinik St. Brigida GmbH & Co. KG,Simmerath,Kammerbruchstraße 8,52152,379,130,34,260530626,772720000,50.6047202,6.3015319
+163,Bethlehem Gesundheitszentrum Stolberg,Stolberg,Steinfeldstraße 5,52222,2233,795,36,260530637,771699000,50.772666,6.2289467
+164,Krankenhaus Düren gem. GmbH,Düren,Roonstraße 30,52351,753,245,33,260530660,772534000,50.8081239,6.4978758
+165,St. Marien-Hospital gGmbH,Düren-Birkesdorf,Hospitalstr. 44,52353,1827,725,40,260530671,771262000,50.8224091,6.466599
+166,GFO Klinik Brühl - Marienhospital,Brühl,Mühlenstrasse 21-25,50321,556,176,32,260530751,771641000,50.8273521,6.9006546
+167,St.-Katharinen-Hospital GmbH,Frechen,Kapellenstr. 1-5,50226,353,132,37,260530784,772393000,50.9222305,6.8081989
+168,Marien-Hospital,Euskirchen,Gottfried-Disse-Straße 40,53879,633,188,30,260530886,771698000,50.6423738,6.7912555
+169,Krankenhaus Mechernich,Mechernich,St. Elisabethstraße 2-6,53894,907,330,36,260530900,771848000,50.5925382,6.6512632
+170,Hermann-Josef-Krankenhaus,Erkelenz,Tenholter Str. 43,41812,979,323,33,260530966,771574000,51.0751406,6.3139125
+171,Städtisches Krankenhaus Heinsberg GmbH,Heinsberg,Auf dem Brand 1,52525,583,222,38,260530999,772072000,51.064924,6.0949779
+172,Kreiskrankenhaus Gummersbach,Gummersbach,Wilhelm-Breckow-Allee 20,51643,1062,399,38,260531046,772125000,51.0154919,7.5674469
+173,Vinzenz Pallotti Hospital,Bergisch-Gladbach-Bensberg,Vinzenz-Pallotti-Straße 20,51429,1882,491,26,260531159,771642000,50.961996,7.1755471
+174,Evangelisches Krankenhaus Bergisch Gladbach gGmbH,Bergisch Gladbach,Ferrenbergstrasse 24,51465,682,246,36,260531160,773200000,50.9897979,7.1373928
+175,St. Johannes,Troisdorf - Sieglar,Wilhelm-Busch Str. 9,53844,1314,268,20,260531364,772395000,50.7972446,7.1174131
+176,St. Josef Troisdorf,Troisdorf,Hospitalstraße  45,53840,777,181,23,260531364,772396000,50.8176693,7.1594793
+177,Helios Klinik Wipperfürth ,Wipperfürth,Alte Kölner Straße 9,51688,606,184,30,260532935,771944000,51.1131661,7.3854849
+178,Marienhospital Gelsenkirchen GmbH,Gelsenkirchen,Virchowstr. 122,45886,1704,577,34,260550095,771657000,51.4967408,7.1019635
+179,Sankt Marien-Hospital Buer GmbH,Gelsenkirchen,Mühlenstr. 5-9,45894,1010,295,29,260550108,771647000,51.5886917,7.046522
+180,Universitätsklinikum Münster,Münster,Domagkstr. 5,48149,940,395,42,260550131,772432000,51.9610826,7.5999013
+181,Ludgerus-Kliniken Münster GmbH-Standort Clemenshospital,Münster,Düesbergweg 124,48153,1705,513,30,260550142,772873000,51.9324359,7.6142988
+182,St. Marien-Krankenhaus Ahaus,Ahaus,Wüllener Straße 101,48683,680,187,28,260550277,771284000,52.0687896,6.9931916
+183,St. Agnes-Hospital Bocholt,Bocholt,Barloer Weg 125,46397,1128,334,30,260550277,771286000,51.8556194,6.6270726
+184,St. Marien-Hospital Borken,Borken,Am Boltenhof 7,46325,132,45,34,260550277,771288000,51.841961,6.860559
+185,St. Antonius-Hospital Gronau GmbH,Gronau,Möllenweg 22,48599,569,155,27,260550313,771299000,52.2081007,7.0208889
+186,"Christophorus Kliniken Coesfeld – Dülmen – Nottuln, Standort Coesfeld",Coesfeld,Südring 41,48653,2386,583,24,260550460,771191000,51.9437116,7.1707741
+187,St. Vincenz-Krankenhaus,Datteln,Rottstraße 11,45711,2294,918,40,260550596,771891000,51.6518156,7.3450931
+188,"Stiftungsklinikum PROSELIS gGmbH, Standort Prosper-Hospital",Recklinghausen,Mühlenstraße 27,45659,748,248,33,260550701,772358000,51.6063371,7.1923277
+189,Klinikum Rheine,Rheine,Frankenburgstrasse 31,48431,2167,626,29,260550905,773430000,52.2761609,7.4258089
+190,St. Franziskus-Hospital Ahlen,Ahlen,Robert-Koch-Straße 55,59227,1168,255,22,260550961,772804000,51.767329,7.884784
+191,"Klinikum Vest GmbH, Paracelsus-Klinik Marl",Marl,Lipper Weg  11,45770,597,207,35,260551165,772472000,51.6620447,7.1241778
+192,St. Franziskus-Hospital GmbH Münster,Münster,Hohenzollernring 70,48145,2375,721,30,260551416,772191000,51.9609413,7.649296
+193,Marienhospital Bottrop gGmbH,Bottrop,Josef-Albers-Str. 70,46236,1182,380,32,260551757,771988000,51.5344955,6.9180811
+194,St. Elisabeth-Krankenhaus Dorsten,Dorsten,Pfarrer-Wilhelm-Schmitz-Straße 1,46282,623,242,39,260551837,772049000,51.6566941,6.9563896
+195,"Klinikum Bielefeld gem. GmbH, Standort Halle/Westfalen",Halle,Winnebrockstr. 1,33790,442,170,38,260570022,772829000,52.0546825,8.3547493
+196,Klinikum Bielefeld gem. GmbH,Bielefeld,Teutoburger Str. 50,33604,956,319,33,260570022,772831000,52.0147557,8.5431079
+197,Evangelisches Klinikum Bethel gGmbH Standort Bethel,Bielefeld,Kantensiek 11,33617,1898,718,38,260570044,773641000,52.0128958,8.5261322
+198,Klinik Dr. Hartog,Bielefeld,Kiskerstr. 15,33615,387,213,55,260570088,772065000,52.0231045,8.5213338
+199,Klinikum Gütersloh,Gütersloh,Reckenberger Str. 19,33332,794,271,34,260570113,771179000,51.8975084,8.3850577
+200,Klinikum Herford AöR,Herford,Schwarzenmoorstraße 70,32049,1259,487,39,260570306,773235000,52.126119,8.7004351
+201,St. Ansgar Krankenhaus Höxter,Höxter,Brenkhäuser Str. 71,37671,1032,315,31,260570351,773298000,51.7850314,9.3653808
+202,Klinikum Lippe Detmold,Detmold,Röntgenstraße 18,32756,1977,555,28,260570486,771184000,51.9412595,8.8798408
+203,MKK Krankenhaus Bad Oeynhausen,Bad Oeynhausen,Wielandstraße 28,32545,693,174,25,260570545,772361000,52.1935148,8.7974675
+204,Herz- und Diabeteszentrum NRW,Bad Oeynhausen,Georgstrasse  11,32545,Datenschutz,Datenschutz,Datenschutz,260570603,771056000,52.1921357,8.795334
+205,Krankenhaus Lübbecke,Lübbecke,Virchowstraße 65,32312,829,173,21,260570681,772139000,52.2960071,8.6035676
+206,Johannes Wesling Klinikum Minden,Minden,Hans-Nolte-Str. 1,32429,1854,764,41,260570692,772283000,52.2612461,8.8890891
+207,St. Vincenz-Krankenhaus,Paderborn,Am Busdorf 2,33098,2542,660,26,260570874,772673000,51.7185238,8.7591072
+208,St. Josefs-Krankenhaus,Salzkotten,Dr.-Krismann-Straße 12,33154,1171,195,17,260570874,772674000,51.6779414,8.6177166
+209,St. Johannisstift Ev. Krankenhaus Paderborn GmbH,Paderborn,Reumontstraße 28,33102,100,30,30,260570896,771887000,51.7229513,8.746516
+210,Marienhospital Oelde,Oelde,Spellerstraße 16,59302,443,135,30,260571421,772475000,51.8219845,8.1428601
+211,Sankt Elisabeth Hospital,Gütersloh,Stadtring Kattenstroth 130,33332,1079,276,26,260571421,772477000,51.8823827,8.3817944
+212,Franziskus Hospital Bielefeld,Bielefeld,Kiskerstr. 26,33615,1015,388,38,260571421,773289000,52.0226864,8.5227616
+213,Mathilden Hospital,Herford,Renntormauer 1-3,32052,563,178,32,260571421,773290000,52.1119389,8.6748631
+214,St. Elisabeth-Hospital,Bochum,Bleichstraße 15,44787,1374,528,38,260590071,772745000,51.4826965,7.2201904
+215,Augusta-Kranken-Anstalt gGmbH Bochum,Bochum,Bergstraße 26,44791,1418,410,29,260590106,771915000,51.4852967,7.2229971
+216,Klinikum Dortmund Mitte,Dortmund,Beurhausstraße 40,44137,2453,1322,54,260590139,773659000,51.5084552,7.4576213
+217,Klinikum Dortmund Nord,Dortmund,Münsterstraße 240,44145,Datenschutz,Datenschutz,Datenschutz,260590139,773660000,51.5344549,7.4543456
+218,St. Josefs Hospital Dortmund-Hörde,Dortmund,Wilhelm-Schmidt-Str. 4,44263,974,259,27,260590219,772089000,51.4851096,7.5051313
+219,St. Rochus-Hospital Castrop-Rauxel (Einrichtung des St. Lukas Klinikums),Castrop-Rauxel,Glückaufstr. 10,44575,782,303,39,260590219,772090000,51.5468383,7.3156511
+220,HAMM,Hamm,Werler Straße 110,59063,1484,465,31,260590402,773164000,51.6705744,7.826875
+221,"Marien Hospital Herne, Klinikum der Ruhr-Universität Bochum",Herne,Hölkeskampring 40,44625,616,197,32,260590457,772372000,51.5287108,7.2264738
+222,St. Anna Hospital Herne,Herne,Hospitalstr. 19,44649,1147,244,21,260590468,772418000,51.537557,7.1590304
+223,Gemeinschaftskrankenhaus Herdecke,Herdecke,Gerhard-Kienle-Weg -- 4,58313,1977,625,32,260590572,772009000,51.4116353,7.3999225
+224,HELIOS Klinikum Schwelm,Schwelm,Dr.-Moeller-Straße 15,58332,725,267,37,260590583,771535000,51.2937365,7.3122248
+225,Marien Hospital Witten,Witten,Marienplatz 2,58452,2747,1151,42,260590641,772434000,51.4451883,7.3372477
+226,Städt. Krankenhaus Maria-Hilf Brilon gGmbH,Brilon,Am Schönschede 1,59929,574,220,38,260590696,773218000,51.3857818,8.5821875
+227,"Klinikum Lüdenscheid, Märkische Kliniken GmbH",Lüdenscheid,Paulmannshöher Straße 14,58515,771,262,34,260590969,773051000,51.2077232,7.6622444
+228,Berglandklinik Lüdenscheid GmbH & Co. KG,Lüdenscheid,Am Hundebrink 6,58511,474,188,40,260590981,773505000,51.2072103,7.6374958
+229,Katholische Hospitalgesellschaft Südwestfalen gGmbH - St. Martinus-Hospital,Olpe,Hospitalweg 6,57462,852,286,34,260591107,772205000,51.0279527,7.8465098
+230,Katholische Hospitalgesellschaft Südwestfalen gGmbH - St. Josefs-Hospital,Lennestadt,Uferstraße 7,57368,544,177,33,260591107,772206000,51.1083091,8.0697058
+231,St. Marien-Krankenhaus Siegen ,Siegen,Kampenstraße 51,57072,1087,284,26,260591243,772061000,50.8790848,8.0298395
+232,Evangelisches Krankenhaus Lippstadt,Lippstadt,Wiedenbrücker Straße 33,59555,1573,587,37,260591345,771769000,51.6848042,8.3422539
+233,KlinikumStadtSoest gGmbH,Soest,Senator-Schwartz-Ring 8,59494,584,185,32,260591389,772657000,51.5650729,8.0778409
+234,KLW St. Paulus GmbH  St. Marien Hospital Lünen,Lünen,Altstadtstraße 23,44534,685,263,38,260591506,771395000,51.6188621,7.5153293
+235,MKS St. Paulus GmbH - Marienkrankenhaus Schwerte,Schwerte,Goethestraße 19,58239,829,302,36,260591517,771493000,51.4439056,7.5675557
+236,Christliches Klinikum Unna gGmbH,Unna,Obere Husemannstrasse 2,59423,1063,417,39,260591539,772252000,51.5369502,7.6847822
+237,"Knappschaftskrankenhaus Dortmund, Klinikum Westfalen GmbH",Dortmund,Am Knappschaftskrankenhaus 1,44309,532,157,30,260591619,771108000,51.5200629,7.5320074
+238,St. Barbara-Klinik Hamm GmbH,Hamm,Am Heessener Wald 1,59073,620,208,34,260592084,772561000,51.7078282,7.8416243
+239,VAMED Klinik Bad Berleburg GmbH,Bad Berleburg,An der Gontardslust  7,57319,210,71,34,260592277,771727000,51.0606658,8.4073489
+240,Diakonie Klinikum Jung-Stilling,Siegen,Wichernstraße 40,57074,1789,730,41,260593085,771580000,50.8515103,8.0184
+241,St.-Johannes-Hospital Dortmund,Dortmund,Johannesstraße 9-13,44137,1262,457,36,260593096,772099000,51.5104129,7.4574054
+242,KLINIKUM HOCHSAUERLAND / Karolinen-Hospital Hüsten,Arnsberg,Stolte Ley 5,59759,1730,397,23,260593600,772597000,51.4260697,7.9996717
+243,Klinikum Darmstadt GmbH,Darmstadt,Grafenstraße 9,64283,2557,1024,40,260610019,771807000,49.8745519,8.6466744
+244,Alice-Hospital,Darmstadt,Dieburger Straße 31,64287,1494,547,37,260610031,771432000,49.8772641,8.6653032
+245,Klinikum Frankfurt Höchst GmbH,Frankfurt am Main,Gotenstraße 6-8,65929,2246,703,31,260610075,773233000,50.1086826,8.5468262
+246,Bürgerhospital und Clementine Kinderhospital gGmbH Standort: Bürgerhospital Frankfurt,Frankfurt am Main,Nibelungenallee 37-41,60318,4157,1500,36,260610122,771984000,50.1303682,8.686207
+247,Hospital zum Heiligen Geist,Frankfurt am Main,Lange Straße 4 - 6,60311,1167,367,31,260610133,771238000,50.1103217,8.6932165
+248,DGD Krankenhaus Sachsenhausen gGmbH,Frankfurt,Schulstr. 31,60594,732,302,41,260610177,771347000,50.1063178,8.6836179
+249,"Universitätsklinikum Gießen und Marburg, Standort Gießen",Gießen,Rudolf-Buchheim-Straße 8,35392,1996,943,47,260610279,773411000,50.5763998,8.6659184
+250,Lahn-Dill-Kliniken GmbH,Wetzlar,Forsthausstraße 1,35578,648,175,27,260610280,771876000,50.5386763,8.5309561
+251,St. Josefs Krankenhaus Balserische Stiftung,Gießen,Wilhelmstraße 7,35392,1240,365,29,260610337,772166000,50.5782557,8.6675581
+252,Sana Klinikum Offenbach GmbH,Offenbach,Starkenburgring 66,63069,1392,434,31,260610359,772356000,50.0957449,8.7545387
+253,Ketteler Krankenhaus,Offenbach,Lichtenplattenweg 85,63071,536,174,32,260610360,771398000,50.0946549,8.7847016
+254,Helios Dr. Horst-Schmidt-Kliniken Wiesbaden,Wiesbaden,Ludwig-Erhard-Strasse 100,65199,1881,601,32,260610393,773371000,50.0658506,8.1914707
+255,Asklepios Paulinen Klinik Wiesbaden,Wiesbaden,Geisenheimer Straße 10,65197,983,263,27,260610428,773037000,50.0719273,8.2269943
+256,St. Josefs-Hospital Wiesbaden GmbH,Wiesbaden,Beethovenstr. 20,65189,1429,459,32,260610439,772176000,50.0764489,8.2544924
+257,Kreisklinik Groß-Umstadt,Groß-Umstadt,Krankenhausstr. 11,64823,384,105,27,260610690,772772000,49.8672057,8.9367986
+258,Hochtaunus-Kliniken gGmbH - Bad Homburg,Bad Homburg,Zeppelinstraße 20,61352,1421,350,25,260610792,772998000,50.2121193,8.619331
+259,Dill-Kliniken,Dillenburg,Rotebergstraße 2,35683,479,169,35,260611009,771878000,50.7458766,8.2851859
+260,Asklepios Klinik Lich GmbH,Lich,Goethestraße 4,35423,806,268,33,260611032,771723000,50.524845,8.8057305
+261,St. Vincenz-Krankenhaus Limburg,Limburg,Auf dem Schafsberg -,65549,1289,457,35,260611203,772912000,50.3874898,8.0511327
+262,Main-Kinzig-Kliniken Gelnhausen,Gelnhausen,Herzbachweg 14,63571,1666,525,32,260611225,772471000,50.2062544,9.1825422
+263,Klinikum Hanau GmbH,Hanau,Leimenstraße 20,63450,1372,546,40,260611236,771648000,50.1334541,8.923525
+264,St. Vinzenz-Krankenhaus Hanau gGmbH Haupthaus,Hanau,Am Frankfurter Tor 25,63450,869,210,24,260611258,772141000,50.1352215,8.9121809
+265,Kliniken des Main-Taunus Kreises GmbH / Krankenhaus Bad Soden,Bad Soden am Taunus,Kronberger Straße 36,65812,1037,366,35,260611383,773347000,50.1505305,8.5135951
+266,Gesundheitszentrum Odenwaldkreis GmbH,Erbach,Albert-Schweitzer-Str. 10-20,64711,506,175,35,260611511,771569000,49.6516204,9.000656
+267,Universitätsklinikum Frankfurt,Frankfurt am Main,Theodor-Stern-Kai 7,60590,1831,718,39,260612124,772858000,50.0952039,8.6611054
+268,Klinikum Kassel GmbH,Kassel,Mönchebergstraße 41-43,34125,2447,769,31,260620011,772565000,51.3273936,9.5101244
+269,Klinikum Fulda - Hauptstandort,Fulda,Pacelliallee 4,36043,1710,720,42,260620157,772145000,50.5470787,9.7057356
+270,Herz-Jesu-Krankenhaus gGmbH,Fulda,Buttlarstraße 74,36039,924,214,23,260620180,771197000,50.5632583,9.6733836
+271,Klinikum Bad Hersfeld GmbH,Bad Hersfeld,Seilerweg 29,36251,856,300,35,260620271,771129000,50.8759431,9.7134361
+272,"Universitätsklinikum Gießen und Marburg GmbH, Standort Marburg",Marburg,Baldingerstraße 01,35043,2059,806,39,260620431,773132000,50.8161245,8.8060536
+273,"Asklepios Schwalm-Eder-Kliniken GmbH, Klinikum Schwalmstadt",Schwalmstadt,Krankenhausstraße 27,34613,492,196,40,260620556,773531000,50.922049,9.2562986
+274,Hospital zum Heiligen Geist gGmbH,Fritzlar,Am Hospital 6,34560,717,152,21,260620589,772956000,51.1324614,9.2788846
+275,Kreiskrankenhaus Frankenberg,Frankenberg,Forststraße 9,35066,580,183,32,260620658,772704000,51.0619825,8.7918885
+276,Stadtkrankenhaus Korbach gGmbH,Korbach,Enser Str. 19,34497,312,103,33,260620670,772662000,51.2674541,8.8710857
+277,Kreiskrankenhaus Bergstraße - eine Einrichtung des Universitätsklinikums Heidelberg,Heppenheim,Viernheimer Straße 2,64646,775,255,33,260640048,772028000,49.6281904,8.625264
+278,GPR Klinikum,Rüsselsheim am Main,August-Bebel-Straße 59,65428,1195,345,29,260640480,771061000,49.9827132,8.4251458
+279,St. Elisabethen-Krankenhaus,Frankfurt am Main,Ginnheimer Straße 3,60487,1512,570,38,260640641,773559000,50.1264302,8.6388472
+280,Asklepios Klinik Langen,Langen,Röntgenstraße 20,63225,846,253,30,260640732,772654000,49.9985187,8.6845424
+281,Hochwaldkrankenhaus Bad Nauheim,Bad Nauheim,Chaumontplatz 1,61231,1008,257,25,260641722,771758000,50.3571253,8.7291555
+282,Helios St. Elisabeth Klinik Hünfeld,Hünfeld,Schillerstraße 22,36088,330,132,40,260660258,772593000,50.6631439,9.7672048
+283,AGAPLESION DIAKONIE KLINIKEN KASSEL,Kassel,Herkulesstraße 34,34119,1568,485,31,260660839,772094000,51.3142665,9.4627093
+284,Kreisklinik Hofgeismar,Hofgeismar,Liebenauer Straße 1,34369,265,92,35,260660862,772508000,51.496004,9.3691837
+285,Klinikum Werra Meißner GmbH / Standort Eschwege,Eschwege,Elsa-Brändström-Straße 1,37269,415,95,23,260660873,772876000,51.1827575,10.0503338
+286,Gemeinschaftsklinikum Mittelrhein gGmbH / Kemperhof,Koblenz,Koblenzer Straße 115-155,56073,1677,568,34,260700109,773518000,50.3556095,7.5646017
+287,"Gemeinschaftsklinikum Mittelrhein, St. Elisabeth Mayen",Mayen,Siegfriedstr. 20+22,56727,766,284,37,260700109,773520000,50.3263714,7.2184762
+288,Krankenhaus Maria Hilf,Bad Neuenahr-Ahrweiler,Dahlienweg 3-5,53474,326,81,25,260710087,771220000,50.5414155,7.1289587
+289,DRK Krankenhaus Altenkirchen-Hachenburg (HB),Hachenburg,Alte Frankfurter Straße 12,57627,677,187,28,260710327,772402000,50.6567551,7.830374
+290,DRK Krankenhaus Kirchen,Kirchen,Bahnhofstraße 24,57548,834,254,30,260710350,771808000,50.8061329,7.8792628
+291,Krankenhaus St. Marienwörth,Bad Kreuznach,Mühlenstraße 39,55543,712,247,35,260710394,773031000,49.8464188,7.8610687
+292,Klinikum Idar-Oberstein GmbH,Idar-Oberstein,Dr.-Ottmar-Kohler-Straße 2,55743,649,200,31,260710646,772307000,49.7161834,7.3212833
+293,Marienkrankenhaus Cochem,Cochem,Avallonstraße 32,56812,Datenschutz,Datenschutz,Datenschutz,260710715,772167000,50.1555604,7.1793583
+294,St. Nikolaus-Stiftshospital GmbH Andernach,Andernach,Ernestus-Platz 1,56626,1036,229,22,260710748,771119000,50.4407047,7.4047772
+295,Hunsrück Klinik kreuznacher diakonie,Simmern,Holzbacher Straße 1,55469,549,155,28,260710997,772202000,49.9805102,7.5173876
+296,Herz-Jesu-Krankenhaus Dernbach,Dernbach,Südring 8,56428,514,173,34,260711180,772098000,50.4532024,7.7853595
+297,Diakonie Krankenhaus kreuznacher diakonie,Bad Kreuznach,Ringstraße 64,55543,1339,543,41,260711636,772554000,49.8367828,7.863625
+298,Marienhaus Klinikum St. Elisabeth Neuwied,Neuwied,Friedrich-Ebert-Straße 59,56564,1682,623,37,260711658,771924000,50.4278742,7.4709599
+299,Katholisches Klinikum Koblenz·Montabaur,Koblenz,Kardinal-Krementz-Straße  1-5,56073,1173,371,32,260711852,771301000,50.3536031,7.5869392
+300,Klinikum Mutterhaus der Borromäerinnen gGmbH Standort Mitte/Nord,Trier,Feldstraße 16,54290,2174,859,40,260720034,771463000,49.7548636,6.6319705
+301,Marienhaus Klinikum Eifel - Standort Bitburg,Bitburg,Krankenhausstraße 1,54634,422,164,39,260720307,771730000,49.97173,6.5264611
+302,St. Elisabeth Krankenhaus Wittlich,Wittlich,Koblenzer Straße 91,54516,1396,535,38,260720330,771854000,50.000609,6.8921032
+303,Stadtklinik Frankenthal,Frankenthal,Elsa-Brändström-Straße 1,67227,315,103,33,260730014,771517000,49.5427022,8.3311645
+304,Westpfalz-Klinikum GmbH - Standort I Kaiserslautern,Kaiserslautern,Hellmut-Hartert-Straße 1,67655,1097,358,33,260730025,772988000,49.4414169,7.7560839
+305,Vinzentius-Krankenhaus Landau,Landau,Cornichonstraße 4,76829,1055,352,33,260730081,772900000,49.1903125,8.1142225
+306,Klinikum der Stadt Ludwigshafen am Rhein gGmbH,Ludwigshafen,Bremserstr. 79,67063,339,152,45,260730116,772801000,49.4898721,8.4255357
+307,St. Marien- und St. Annastiftskrankenhaus,Ludwigshafen,Salzburger Straße 15,67067,1511,517,34,260730127,772591000,49.4577634,8.4073044
+308,Universitätsmedizin der Johannes Gutenberg-Universität Mainz,Mainz,Langenbeckstraße 1,55131,1409,592,42,260730161,771621000,49.9917813,8.2603945
+309, Marienhaus Klinikum Mainz,Mainz,An der Goldgrube 11,55131,1945,442,23,260730183,772834000,49.9894603,8.2705606
+310,Marienhaus Klinikum Hetzelstift,Neustadt an der Weinstraße,Stiftstraße 10,67434,561,181,32,260730229,772789000,49.3463039,8.1494815
+311,Städtisches Krankenhaus Pirmasens gGmbH Standort Pirmasens,Pirmasens,Pettenkoferstraße 22,66955,901,310,34,260730263,773361000,49.1930487,7.6177302
+312,Diakonissen-Stiftungs-Krankenhaus Speyer,Speyer,Paul-Egell-Straße 33,67346,3481,1210,35,260730309,771057000,49.3110892,8.4346112
+313,Klinikum Worms gGmbH,Worms,Gabriel-von-Seidl-Str. 81,67550,1602,619,39,260730321,771693000,49.6493067,8.3200311
+314,Kreiskrankenhaus Grünstadt,Grünstadt,Westring 55,67269,748,265,35,260730412,771109000,49.5637759,8.15786
+315,Westpfalz-Klinikum GmbH - Standort III Kirchheimbolanden,Kirchheimbolanden,Dannenfelser Straße 36,67292,762,207,27,260730423,772990000,49.659134,8.0073192
+316,Nardini Klinikum St. Johannis,Landstuhl,Nardinistr. 30,66849,745,281,38,260730478,772426000,49.3990068,7.5824388
+317,Marienhospital Stuttgart,Stuttgart,Böheimstraße 37,70199,1033,315,30,260810191,772796000,48.7609892,9.1633814
+318,Robert-Bosch-Krankenhaus,Stuttgart,Auerbachstraße 110,70376,1491,534,36,260810271,772311000,48.8146647,9.1873791
+319,Krankenhaus Herrenberg,Herrenberg,Marienstraße 25,71083,1200,243,20,260810431,771318000,48.5917634,8.875121
+320,Krankenhaus Leonberg,Leonberg,Rutesheimer Straße 50,71229,661,181,27,260810453,771315000,48.8020131,9.0029488
+321,Klinikum Esslingen GmbH,Esslingen am Neckar,Hirschlandstraße 97,73730,1570,606,39,260810475,771511000,48.7359681,9.3264681
+322,medius KLINIK OSTFILDERN-RUIT,Ostfildern,Hedelfinger Str. 166,73760,1093,154,14,260810523,772696000,48.7412207,9.2548634
+323,Die Filderklinik gGmbH,Filderstadt,Im Haberschlai 7,70794,2212,375,17,260810545,772914000,48.6472613,9.2047531
+324,Klinik am Eichert,Göppingen,Eichertstraße 3,73035,1719,600,35,260810589,772384000,48.6903119,9.6512629
+325,Krankenhaus Bietigheim,Bietigheim-Bissingen,Riedstr. 12,74321,1894,465,25,260810625,772171000,48.9573453,9.1354806
+326,Klinikum Ludwigsburg,Ludwigsburg,Posilipostraße 4,71640,2393,789,33,260810647,772121000,48.8989021,9.2035793
+327,Rems-Murr-Klinik Schorndorf,Schorndorf,Schlichtener Straße 105,73614,713,191,27,260810716,772813000,48.7972867,9.5296473
+328,Rems-Murr-Klinikum Winnenden,Winnenden,Am Jakobsweg 1,71364,2332,874,37,260810738,773028000,48.8703675,9.3921821
+329,SLK-Kliniken Heilbronn GmbH - Klinikum am Gesundbrunnen,Heilbronn,Am Gesundbrunnen 20-26,74078,3201,475,15,260810794,772048000,49.1540716,9.189318
+330,Hohenloher Krankenhaus gGmbH Standort: Öhringen,Öhringen,Kastellstraße 5,74613,1013,195,19,260811114,773242000,49.2064207,9.4987491
+331,Landkreis Schwäbisch Hall Klinikum gGmbH,Crailsheim,Gartenstr. 21,74564,658,200,30,260811125,772436000,49.1357543,10.0772346
+332,Diakonie-Klinikum Schwäbisch Hall gGmbH,Schwäbisch Hall,Diakoniestraße 10,74523,1309,401,31,260811192,772437000,49.1248283,9.7417081
+333,Kliniken Landkreis Heidenheim gGmbH,Heidenheim,Schloßhaustraße 100,89522,1009,308,31,260811498,771378000,48.6728039,10.1417872
+334,"Kliniken Ostalb, Ostalb-Klinikum Aalen",Aalen,Im Kälblesrain 1,73430,1835,540,29,260811502,771469000,48.8492435,10.0859237
+335,St. Anna-Virngrund-Klinik,Ellwangen,Dalkinger Straße 8-12,73479,380,150,39,260811546,771382000,48.9571201,10.1319408
+336,Stauferklinikum Schwäbisch-Gmünd,Mutlangen,Wetzgauer Str. 85,73557,1607,480,30,260811579,771470000,48.8195896,9.7874243
+337,medius KLINIK NÜRTINGEN,Nürtingen,Auf dem Säer 1,72622,1457,292,20,260812273,772706000,48.6291919,9.3564167
+338,Klinikum Stuttgart - Katharinenhospital (KH),Stuttgart,Kriegsbergstraße 60,70174,Datenschutz,Datenschutz,Datenschutz,260812364,772783000,48.7837421,9.1733168
+339,Klinikum Stuttgart - Olgahospital / Frauenklinik (OH/FK),Stuttgart,Kriegsbergstraße 62,70174,2918,1449,50,260812364,772786000,48.7843184,9.1717916
+340,Kliniken Böblingen,Böblingen,Bunsenstraße 120,71032,2753,814,30,260812525,771314000,48.6897835,9.0331835
+341,Caritas-Krankenhaus Bad Mergentheim,Bad Mergentheim,Uhlandstraße 7,97980,1294,389,30,260812558,772383000,49.4904375,9.7638291
+342,St. Anna-Klinik,Stuttgart,Obere Waiblinger Str. 101,70374,845,311,37,260812569,772571000,48.8072126,9.2302905
+343,Rotkreuzklinik Wertheim,Wertheim,Rotkreuzstraße 2,97877,20,17,85,260812649,772711000,49.7608333,9.4979636
+344,Klinikum Mittelbaden Baden-Baden Balg,Baden-Baden,Balger Str. 50,76532,1943,777,40,260820013,772902000,48.7843063,8.216508
+345,Städtisches Klinikum Karlsruhe gGmbH,Karlsruhe,Moltkestraße 90,76133,2407,895,37,260820115,772143000,49.0156523,8.3745829
+346,Diakonissenkrankenhaus ,Karlsruhe,Diakonissenstraße 28,76199,1588,390,25,260820137,771801000,48.9712006,8.4099831
+347,St. Vincentius Kliniken ,Karlsruhe,Steinhäuserstraße 18,76135,1157,320,28,260820137,771802000,48.9995634,8.3782438
+348,Fürst-Stirum-Klinik Bruchsal,Bruchsal,Gutleutstraße 1-14,76646,1049,317,30,260820284,772071000,49.1321188,8.6039746
+349,Universitätsklinikum Heidelberg: Campus,Heidelberg,Im Neuenheimer Feld 672,69120,2197,1051,48,260820466,771700000,49.4199193,8.6676297
+350,St. Josefskrankenhaus Heidelberg GmbH,Heidelberg,Landhausstraße 25,69115,493,180,37,260820499,771138000,49.4025657,8.688835
+351,Krankenhaus Salem derEvang. Stadtmission Heidelberg gGmbH,Heidelberg,Zeppelinstraße 11-33,69121,1202,385,32,260820503,771242000,49.4234373,8.6840628
+352,Universitätsklinikum Mannheim GmbH,Mannheim,Theodor-Kutzer-Ufer 1-3,68167,2769,1122,41,260820569,772389000,49.4923524,8.4867398
+353,Diako Mannheim gGmbH,Mannheim,Speyerer Straße 91-93,68163,1209,472,39,260820570,771219000,49.4633883,8.4694053
+354,Neckar-Odenwald-Kliniken gGmbH,Buchen,Dr. Konrad-Adenauer-Straße 37,74722,745,200,27,260820650,772039000,49.5240648,9.3082973
+355,GRN-Klinik Schwetzingen,Schwetzingen,Bodelschwinghstraße 10,68723,865,242,28,260820774,771953000,49.3778789,8.5704262
+356,GRN-Klinik Sinsheim,Sinsheim,Alte Waibstadter Straße 2,74889,1317,282,21,260820785,771951000,49.2524474,8.8902886
+357,Helios Klinikum Pforzheim GmbH ,Pforzheim,Kanzlerstraße 2-6,75175,1546,438,28,260820854,773169000,48.8889734,8.7123224
+358,Siloah St. Trudpert Klinikum,Pforzheim,Wilferdinger Straße 67,75179,1401,316,23,260820865,771417000,48.8972935,8.6726041
+359,Kreiskliniken Calw,Calw,Eduard-Conz-Straße 6,75365,496,123,25,260821025,771316000,48.7154508,8.744846
+360,Krankenhaus Mühlacker,Mühlacker,Hermann-Hesse-Straße 34,75417,16,16,100,260821241,771995000,48.9506719,8.8605894
+361,Krankenhaus Freudenstadt,Freudenstadt,Karl-von-Hahn-Straße 120,72250,1073,310,29,260821376,773536000,48.4775189,8.4053925
+362,GRN-Klinik Weinheim,Weinheim,Röntgenstraße 1,69469,736,192,26,260821902,771954000,49.54983,8.6448373
+363,Ev. Diakoniekrankenhaus,Freiburg,Wirthstraße 11,79110,1494,329,22,260830026,771430000,48.0239007,7.8157198
+364,St Josefskrankenhaus,Freiburg,Sautierstr. 1,79104,1715,553,32,260830048,771473000,48.0019181,7.8521998
+365,HELIOS Klinik Titisee-Neustadt,Titisee-Neustadt,Jostalstraße 12,79822,509,147,29,260830572,771820000,47.9257363,8.1870108
+366,Kreiskrankenhaus Emmendingen,Emmendingen,Gartenstraße 44,79312,700,194,28,260830629,773126000,48.1252505,7.855804
+367,Helios Klinik Rottweil,Rottweil,Krankenhausstraße 30,78628,1219,320,26,260831061,771543000,48.1654267,8.6126921
+368,Schwarzwald-Baar Klinikum Villingen-Schwenningen GmbH,Villingen-Schwenningen,Klinikstraße 11,78052,2343,896,38,260831312,773574000,48.0646237,8.4991647
+369,Klinikum Konstanz,Konstanz,Mainaustraße 35,78464,897,294,33,260831481,772585000,47.6720647,9.1883441
+370,Hegau-Bodensee-Klinikum Singen,Singen,Virchowstr. 10,78224,1320,489,37,260831551,773017000,47.759353,8.8215343
+371,St. Elisabethen-Krankenhaus Lörrach,Lörrach,Feldbergstraße 15,79539,2053,640,31,260831619,772154000,47.6174567,7.6651006
+372,Klinikum Hochrhein,Waldshut-Tiengen,Kaiserstraße 93-101,79761,591,196,33,260831960,771416000,47.6224982,8.2078557
+373,Universitätsklinikum Freiburg,Freiburg,Hugstetter Straße 55,79106,2181,948,43,260832299,773657000,48.0060746,7.8411712
+374,HELIOS Klinik Müllheim,Müllheim,Heliosweg 1,79379,422,95,23,260832847,771975000,47.8115918,7.6349846
+375,Klinikum Landkreis Tuttlingen,Tuttlingen,Zeppelinstrasse 21,78532,945,306,32,260833449,771355000,47.9847695,8.8321038
+376,Ortenau Klinikum Achern,Achern,Josef-Wurzler-Straße 7,77855,779,236,30,260833519,772210000,48.6252884,8.0662272
+377,Ortenau Klinikum Lahr,Lahr,Klostenstrasse 19,77933,724,191,26,260833520,771962000,48.3444307,7.8854433
+378,Ortenau Klinikum Offenburg-Kehl Standort Offenburg,Offenburg,Ebertplatz 12,77654,2246,787,35,260833531,771833000,48.4760175,7.9546313
+379,Klinikum am Steinenberg,Reutlingen,Steinenbergstraße 31,72764,2045,557,27,260840028,771565000,48.483878,9.218334
+380,Universitätsklinikum Tübingen,Tübingen,Geissweg 3,72076,3292,1384,42,260840108,772041000,48.5277394,9.0489311
+381,Zollernalb Klinikum gGmbH,Balingen,Tübinger Straße  30,72336,1245,422,34,260840164,772128000,48.2775609,8.8572836
+382,Universitätsklinikum Ulm,Ulm,Eythstraße 24,89075,2967,1003,34,260840200,773712000,48.4108529,9.9925123
+383,Alb-Donau Klinikum Ehingen,Ehingen,Spitalstraße 29,89584,794,175,22,260840288,771748000,48.2805841,9.7190302
+384,Alb-Donau Klinikum Blaubeuren,Blaubeuren,Ulmer Straße 26,89143,386,106,27,260840288,771749000,48.4085156,9.7895523
+385,Sana Klinikum Biberach,Biberach,Marie-Curie-Straße 4,88400,886,250,28,260840426,773855000,48.1121455,9.7795564
+386,Klinikum Friedrichshafen GmbH,Friedrichshafen,Röntgenstr. 2,88048,1120,422,38,260840493,771843000,47.6728136,9.4300011
+387,Klinik Tettnang GmbH,Tettnang,Emil-Münch-Straße  16,88069,906,295,33,260840610,771606000,47.6725075,9.5979089
+388,Helios Spital Überlingen GmbH,Überlingen,Härlenweg 1,88662,447,102,23,260840621,772122000,47.7748077,9.1509019
+389,St. Elisabethen-Klinikum,Ravensburg,Elisabethenstraße 15,88212,1449,634,44,260840916,773137000,47.7876455,9.6215075
+390,Westallgäu-Klinikum,Wangen im Allgäu,Am Engelberg 29,88239,649,140,22,260840949,773107000,47.6941068,9.8444073
+391,SRH Krankenhaus Sigmaringen,Sigmaringen,Hohenzollernstrasse 40,72488,683,216,32,260841041,772740000,48.0962031,9.2261244
+392,Klinikum Aschaffenburg-Alzenau gemeinnützige GmbH,Aschaffenburg,Am Hasenkopf 1,63739,2327,718,31,260900134,773249000,49.9762408,9.1861109
+393,Klinikum Würzburg Mitte gGmbH,Würzburg,Salvatorstr. 7,97074,2214,659,30,260900189,772735000,49.7941802,9.9531971
+394,Klinik Hallerwiese-Cnopfsche Kinderklinik,Nürnberg,St.-Johannis-Mühlgasse 19,90419,3281,981,30,260900338,771453000,49.4567681,11.0666508
+395,RHÖN-KLINIKUM Campus Bad Neustadt,Bad Neustadt a. d. Saale,Von-Guttenberg-Str.  11,97616,547,147,27,260900407,771125000,50.3227554,10.2343508
+396,Helios Klinikum München West,München,Steinerweg 5,81241,1240,366,30,260910090,772207000,48.1444878,11.4542841
+397,Klinikum Dritter Orden München-Nymphenburg,München,Menzinger Str. 44,80638,2765,1168,42,260910192,771177000,48.1656655,11.504723
+398,Frauenklinik Dr. Geisenhofer,München,Hirschauer Str. 6,80538,2295,1236,54,260910546,772377000,48.1515148,11.5960485
+399,RoMed Klinikum Rosenheim,Rosenheim,Ellmaierstraße 23,83022,1782,714,40,260910637,772849000,47.8586585,12.1286902
+400,InnKlinikum Altötting,Altötting,Vinzenz-von-Paul-Str. 10,84503,2019,671,33,260910693,772675000,48.2339889,12.6751487
+401,Kreisklinik Bad Reichenhall,Bad Reichenhall,Riedelstr. 5,83435,466,138,30,260910933,772271000,47.7280751,12.8717201
+402,Helios Amper-Klinikum Dachau,Dachau,Krankenhausstraße 15,85221,708,226,32,260911137,771686000,48.2654866,11.4281485
+403,Kreisklinik Ebersberg gemeinnützige GmbH,Ebersberg,Pfarrer-Guggetzer-Straße 3,85560,708,156,22,260911171,771388000,48.0763184,11.9604748
+404,Klinikum Landkreis Erding,Erding,Bajuwarenstraße 5,85435,577,186,32,260911239,771151000,48.2954067,11.8978088
+405,Klinikum Freising GmbH,Freising,Alois-Steinecker-Straße 18,85354,892,283,32,260911273,772067000,48.4050378,11.7446064
+406,Klinikum Fürstenfeldbruck,Fürstenfeldbruck,Dachauer Str. 33,82256,614,155,25,260911295,772387000,48.1808812,11.2593161
+407,Klinikum Garmisch-Partenkirchen - Haupthaus,Garmisch-Partenkirchen,Auenstraße 6,82467,1028,381,37,260911320,773617000,47.4833134,11.1283787
+408,Klinikum Landsberg am Lech,Landsberg am Lech,Bgm.-Dr.-Hartmann-Str. 50,86899,1323,477,36,260911444,773309000,48.0480389,10.8566236
+409,InnKlinikum Altötting und Mühldorf / InnKlinikum Mühldorf,Mühldorf a. Inn,Krankenhausstr. 1,84453,53,53,100,260911707,773372000,48.2426922,12.5300437
+410,AMEOS Klinikum St. Elisabeth Neuburg,Neuburg a. d. Donau,Müller-Gnadenegg-Weg 4,86633,865,260,30,260911832,773487000,48.7310408,11.1740615
+411,RoMed Klinik Wasserburg,Wasserburg am Inn,Gabersee  1,83512,896,201,22,260912194,772850000,48.0577432,12.2023951
+412,Klinikum Starnberg,Starnberg,Oßwaldstr. 1,82319,2940,965,33,260912285,773170000,48.0067375,11.3349898
+413,Klinikum Starnberg - Außenstelle Wolfratshausen,Wolfratshausen,Moosbauerweg 5,82515,633,160,25,260912285,773171000,47.9118292,11.4288155
+414,Klinikum Traunstein,Traunstein,Cuno-Niggl-Str. 3,83278,1622,573,35,260912434,772274000,47.873791,12.6318425
+415,Krankenhaus Schongau,Schongau,Marie-Eberth-Straße 6,86956,516,145,28,260912490,771551000,47.8252581,10.8986654
+416,Klinikum Ingolstadt,Ingolstadt,Krumenauerstraße 25,85049,2869,1178,41,260913037,773586000,48.7694308,11.3772507
+417,Ilmtalklinik GmbH Pfaffenhofen,Pfaffenhofen,Krankenhausstraße 70,85276,832,272,33,260913117,772983000,48.5180908,11.4991655
+418,Klinikum rechts der Isar der Technischen Universität München - Stammgelände,München,Ismaninger Straße 22,81675,1762,549,31,260913195,772053000,48.1360725,11.5994937
+419,"München Klinik Schwabing, München Klinik gGmbH",München,Kölner Platz 1,80804,2455,794,32,260913446,771085000,48.1719298,11.5783492
+420,"München Klinik Neuperlach, München Klinik gGmbH",München,Oskar-Maria-Graf-Ring 51,81737,1341,191,14,260913468,771084000,48.0944364,11.6561055
+421,"München Klinik Harlaching, München Klinik gGmbH",München,Sanatoriumsplatz 2,81545,2332,726,31,260913479,771083000,48.0856455,11.5572092
+422,Krankenhaus Agatharied,Hausham,Norbert-Kerkel-Platz 1,83734,1392,425,31,260913798,773438000,47.769103,11.8269747
+423,Standort Innenstadt,München,Ziemssenstr. 5,80336,2259,552,24,260914050,771734000,48.1327875,11.5615957
+424,Campus Großhadern,München,Marchioninistraße 15,81377,1531,513,34,260914050,771736000,48.1107056,11.4693622
+425,Rotkreuzklinikum München gGmbH,München,Nymphenburger Straße 163,80634,3027,1251,41,260914492,771813000,48.1541708,11.5326594
+426,"Kliniken im Naturpark Altmühltal A.d.ö.R., Klinik Kösching",Kösching,Krankenhausstr. 19,85092,478,174,36,260914868,771577000,48.8150471,11.5069175
+427,Klinikum Landshut gGmbH,Landshut,Robert-Koch-Straße 1,84034,789,228,29,260920014,773514000,48.5376922,12.1374237
+428,Krankenhaus Landshut-Achdorf,Landshut,Achdorfer Weg 3,84036,2030,851,42,260920025,772546000,48.5233443,12.149907
+429,Klinikum Passau,Passau,Innstraße 76,94032,2295,710,31,260920069,772859000,48.5650356,13.4453357
+430,Klinikum St. Elisabeth Straubing GmbH,Straubing,St.-Elisabeth-Str. 23,94315,710,230,32,260920092,771254000,48.8864296,12.5909968
+431,DONAUISAR Klinikum Deggendorf,Deggendorf,Perlasberger Str. 41,94469,1904,576,30,260920127,772414000,48.8391963,12.9698983
+432,DONAUISAR Klinikum Dingolfing,Dingolfing,Teisbacher Str. 1,84130,412,142,34,260920172,772415000,48.6217338,12.4898451
+433,Caritas-Krankenhaus St. Lukas GmbH (bis 31.05.2022 Goldberg-Klinik Kelheim GmbH),Kelheim,Traubenweg 3,93309,582,211,36,260920285,772085000,48.9239405,11.8860668
+434,Krankenhaus Vilsbiburg,Vilsbiburg,Krankenhausstraße 2,84137,465,156,34,260920387,772548000,48.4449248,12.360079
+435,Arberlandklinik Zwiesel,Zwiesel,Arberlandstraße 1,94227,395,131,33,260920617,771187000,49.0072976,13.2183653
+436,Rottal-Inn Klinik Standort Eggenfelden,Eggenfelden,Simonsöder Allee 20,84307,680,252,37,260920639,771269000,48.4133097,12.7600363
+437,Krankenhaus Freyung,Freyung,Krankenhausstraße 6,94078,480,179,37,260921231,771713000,48.8054935,13.5458475
+438,Klinikum St. Marien Amberg,Amberg,Mariahilfbergweg 7,92224,1467,573,39,260930016,772510000,49.4478642,11.8669538
+439,Krankenhaus Barmherzige Brüder Regensburg,Regensburg,Prüfeninger Str. 86,93049,3396,1028,30,260930050,771597000,49.0158519,12.064153
+440,Caritas-Krankenhaus St. Josef,Regensburg,Landshuter Straße 65,93053,1265,358,28,260930061,771144000,49.0068225,12.1191726
+441,Kliniken Nordoberpfalz AG - Weiden,Weiden i. d. OPf.,Söllnerstraße 16,92637,1616,679,42,260930129,771930000,49.6810074,12.1664352
+442,St. Anna Krankenhaus,Sulzbach-Rosenberg,Krankenhausstr. 16,92237,573,188,33,260930163,773646000,49.5046499,11.7295457
+443,Klinikum Neumarkt,Neumarkt,Nürnberger Straße 12,92318,1003,336,33,260930301,771096000,49.2862589,11.4523605
+444,Krankenhaus St. Barbara,Schwandorf,Steinberger Straße 24,92421,672,133,20,260930492,771113000,49.3161353,12.1140235
+445,Kliniken Nordoberpfalz AG - Tirschenreuth,Tirschenreuth,St.-Peter-Str. 31,95643,290,143,49,260930528,771933000,49.8852041,12.3320245
+446,Sana Kliniken des Landkreises Cham - Krankenhaus Cham,Cham,August-Holz-Str. 1,93413,710,218,31,260930799,772430000,49.2248511,12.6598306
+447,Klinikum Bamberg - Betriebsstätte am Bruderwald,Bamberg,Buger Straße 80,96049,2039,562,28,260940029,771420000,49.8671849,10.8905602
+448,Klinik Hohe Warte,Bayreuth,Hohe Warte 8,95445,Datenschutz,Datenschutz,Datenschutz,260940109,772661000,49.9685075,11.5859571
+449,Klinikum Bayreuth,Bayreuth,Preuschwitzer Straße 101,95445,1315,393,30,260940109,772810000,49.9436118,11.5323659
+450,Klinikum Coburg GmbH,Coburg,Ketschendorfer Straße 33,96450,794,268,34,260940154,771718000,50.2468801,10.973119
+451,Sana Klinikum Hof,Hof,Eppenreuther Str. 9,95032,658,212,32,260940198,771124000,50.3026772,11.9154026
+452,Klinikum Forchheim Fränkische Schweiz gGmbH Standort Forchheim,Forchheim,Krankenhausstraße 10,91301,568,158,28,260940358,771246000,49.7133072,11.0793153
+453,Helios Frankenwaldklinik Kronach,Kronach,Friesener Straße 41,96317,471,189,40,260940416,771070000,50.2438042,11.3323544
+454,Klinikum Kulmbach,Kulmbach,Albert-Schweitzer-Straße 10,95326,744,236,32,260940449,771090000,50.1181109,11.466522
+455,REGIOMED Klinikum Lichtenfels,Lichtenfels,Professor-Arneth-Straße 2,96215,522,184,35,260940483,771719000,50.1364421,11.2581072
+456,Kommunalunternehmen Klinikum Fichtelgebirge - Haus Marktredwitz,Marktredwitz,Schillerhain 1-8,95615,390,149,38,260940520,771308000,50.0018257,12.0662375
+457,ANregiomed Klinik Rothenburg,Rothenburg,Ansbacher Str. 131,91541,170,70,41,260950011,773459000,49.3776909,10.1997998
+458,ANregiomed Klinikum Ansbach,Ansbach,Escherichstraße 1,91522,1189,319,27,260950011,773460000,49.3206271,10.5591221
+459,Klinikum Fürth,Fürth,Jakob-Henle-Straße 1,90766,2035,535,26,260950077,771362000,49.4847431,10.9746844
+460,Klinikum Nürnberg Süd,Nürnberg,Breslauer Straße 201,90471,3012,875,29,260950099,771375000,49.4130526,11.1469954
+461,St. Theresien-Krankenhaus Nürnberg gGmbH,Nürnberg,Mommsenstraße 24,90491,829,192,23,260950113,771452000,49.469291,11.1107344
+462,Klinik Neustadt an der Aisch,Neustadt an der Aisch,Paracelsusstr. 30,91413,604,174,29,260950351,771499000,49.5819286,10.6223962
+463,Krankenhäuser Nürnberger Land GmbH - Krankenhaus Lauf,Lauf,Simonshofer Straße 55,91207,650,186,29,260950419,771186000,49.5202319,11.2796887
+464,Kreisklinik Roth,Roth,Weinbergweg 14,91154,Datenschutz,Datenschutz,Datenschutz,260950486,773078000,49.2356345,11.0721655
+465,Universitätsklinikum Erlangen,Erlangen,Maximiliansplatz 2,91054,2524,713,28,260950567,771175000,49.6008509,11.0104406
+466,Klinikum Altmühlfranken Weißenburg,Weißenburg,Krankenhausstr. 1,91781,740,246,33,260950727,771357000,49.0342681,10.9847924
+467,Aschaffenburg,Aschaffenburg,Ziegelbergstr. 5,63739,872,398,46,260960035,773702000,49.9784899,9.1331113
+468,Leopoldina-Krankenhaus der Stadt Schweinfurt GmbH,Schweinfurt,Gustav-Adolf-Str. 6-8,97422,1635,554,34,260960046,771529000,50.0533385,10.2439725
+469,Krankenhaus St. Josef,Schweinfurt,Ludwigstraße 1,97421,472,163,35,260960057,771550000,50.0436834,10.225196
+470,Universitätsklinikum Würzburg,Würzburg,Oberdürrbacher Straße 6,97080,2117,803,38,260960079,773642000,49.8060767,9.9581188
+471,Hassberg-Kliniken Haus Haßfurt,Haßfurt,Hofheimer Str. 69,97437,410,84,20,260960547,771093000,50.0404391,10.5144236
+472,Klinik Kitzinger Land,Kitzingen,Keltenstraße 67,97318,393,106,27,260960569,773323000,49.7437984,10.1395039
+473,Helios Klinik Erlenbach,Erlenbach am Main,Krankenhausstr. 45,63906,819,234,29,260960649,771578000,49.8109038,9.1658383
+474,Universitätsklinikum Augsburg - Medizincampus,Augsburg,Stenglinstr. 2,86156,1958,791,40,260970015,772997000,48.3848965,10.8396834
+475,Universitätsklinikum Augsburg - Medizincampus Süd,Augsburg,Sauerbruchstr. 6,86179,533,230,43,260970015,773108000,48.3059503,10.9165982
+476,KJF Klinik Josefinum gGmbH,Augsburg,Joseph-Mayer-Straße 1,86154,3366,924,27,260970060,773482000,48.3850833,10.8752299
+477,Klinikum Kaufbeuren,Kaufbeuren,Dr.-Gutermann-Straße 2,87600,833,236,28,260970140,773614000,47.8880549,10.610978
+478,Klinikverbund Allgäu gGmbH - Klinikum Kempten,Kempten,Robert-Weixler-Straße 50,87439,1881,538,29,260970173,771222000,47.7298671,10.3034465
+479,Klinikverbund Allgäu gGmbH - Klinik Immenstadt,Immenstadt,Im Stillen 2-3,87509,648,167,26,260970173,771223000,47.5632037,10.2283577
+480,Klinikum Memmingen AöR,Memmingen,Bismarckstraße 23,87700,2178,593,27,260970219,772549000,47.9824646,10.1689987
+481,Krankenhaus Friedberg,Friedberg,Herrgottsruhstr. 3,86316,728,165,23,260970242,773009000,48.3561346,10.9857922
+482,Wertachklinik Bobingen,Bobingen,Wertachstrasse 55,86399,332,99,30,260970275,771588000,48.2812891,10.822651
+483,"Kreiskliniken Günzburg-Krumbach, Klinik Günzburg",Günzburg,Lindenallee 1,89312,655,173,26,260970457,771661000,48.4567007,10.293932
+484,Kreisklinik Krumbach,Krumbach,Mindelheimer Straße 69,86381,360,114,32,260970480,771662000,48.237337,10.3662826
+485,Asklepios Klinik Lindau,Lindau,Friedrichshafener Straße 82,88131,460,127,28,260970549,771419000,47.5636716,9.6841659
+486,Donauklinik Neu-Ulm,Neu-Ulm,Krankenhausstraße 11,89231,1431,295,21,260970630,773273000,48.3940266,9.993967
+487,Klinik Füssen,Füssen,Stadtbleiche 1,87629,401,105,26,260970890,773613000,47.5668356,10.7045634
+488,Klinikverbund Allgäu gGmbH - Klinik Mindelheim,Mindelheim,Bad Wörishofer Straße 44,87719,630,148,23,260971210,773547000,48.0408635,10.493204
+489,Donau-Ries Klinik Donauwörth,Donauwörth,Neudegger Allee 6,86609,562,180,32,260972233,773619000,48.724749,10.7540637
+490,Stiftungskrankenhaus Nördlingen,Nördlingen,Stoffelsberg 4,86720,519,152,29,260972233,773620000,48.8366934,10.4996541
+491,Klinikum Saarbrücken,Saarbrücken,Winterberg  1,66119,1319,554,42,261000013,771100000,49.2212209,6.994143
+492,Klinikum Merzig gGmbH,Merzig,Trierer Straße 148,66663,528,194,37,261000160,773407000,49.4571859,6.6315777
+493,Krankenhaus Saarlouis vom DRK,Saarlouis,Vaubanstraße 25,66740,798,241,30,261000320,772610000,49.3136491,6.7442788
+494,Marienhaus Klinikum St. Elisabeth Saarlouis,Saarlouis,Kapuziner Straße 4,66740,1079,322,30,261000331,771167000,49.3152364,6.7564872
+495,Universitätsklinikum des Saarlandes,Homburg,Kirrberger Straße 100,66421,1456,642,44,261000386,771261000,49.306219,7.3464925
+496,Marienhaus Klinikum St. Wendel - Ottweiler,St. Wendel,Am Hirschberg 1,66606,448,138,31,261000422,772400000,49.4541129,7.1785542
+497,Marienhausklinik St. Josef Kohlhof,Neunkirchen,Klinikweg 1-5,66539,1378,475,34,261000898,772663000,49.3177556,7.2270153
+498,CaritasKlinikum Saarbrücken Standort St. Theresia,Saarbrücken,Rheinstraße 2,66113,1647,572,35,261000934,773075000,49.2486598,6.9597177
+499,Evangelisches Waldkrankenhaus Spandau,Berlin,Stadtrandstraße 555,13589,2113,632,30,261100263,771637000,52.5629991,13.1569429
+500,"Martin Luther Krankenhaus, Berlin",Berlin,Caspar-Theyß-Straße 27-31,14193,1547,424,27,261100310,772079000,52.4900806,13.2908538
+501,Sankt Gertrauden-Krankenhaus GmbH,Berlin,Paretzer Straße 12,10713,572,184,32,261100321,772557000,52.4802288,13.317198
+502,Krankenhaus Waldfriede e.V.,Berlin,Argentinische Allee 40,14163,950,294,31,261100456,771653000,52.4444805,13.240098
+503,St.Joseph Krankenhaus,Berlin,Wüsthoffstraße 15,12101,3894,1096,28,261100855,771917000,52.4781421,13.3729493
+504,Charité - Universitätsmedizin Berlin,Berlin,Charitéplatz 1,10117,1884,772,41,261101015,772563000,52.5258523,13.3777575
+505,Hauptstandort,Berlin,Augustenburger Platz 1,13353,Datenschutz,Datenschutz,Datenschutz,261101220,772958000,52.5422251,13.3473481
+506,Caritas-Klinik Maria Heimsuchung Berlin-Pankow,Berlin,Breite Straße 46/47,13187,1543,226,15,261101264,772045000,52.571361,13.411153
+507,Helios Klinikum Berlin-Buch,Berlin,Schwanebecker Chaussee 50,13125,2878,998,35,261101300,773608000,52.6314106,13.503784
+508,Sana Klinikum Lichtenberg,Berlin,Fanningerstraße 32,10365,2511,729,29,261101527,773403000,52.5132845,13.4959012
+509,Vivantes Klinikum im Friedrichshain,Berlin,Landsberger Allee 49,10249,3157,885,28,261101878,773179000,52.5255105,13.4393691
+510,Vivantes Klinikum Am Urban,Berlin,Dieffenbachstraße  1,10967,1286,232,18,261101878,773181000,52.4939186,13.4086236
+511,Vivantes Klinikum Kaulsdorf,Berlin,Myslowitzer Straße 45,12621,839,181,22,261101878,773182000,52.5067558,13.5938102
+512,Vivantes Klinikum Neukölln,Berlin,Rudower Straße 48,12351,2671,994,37,261101878,773183000,52.4372244,13.4592239
+513,Vivantes Auguste-Viktoria-Klinikum,Berlin,Rubensstraße 125,12157,1753,397,23,261101878,773184000,52.4624325,13.3463907
+514,Vivantes Humboldt-Klinikum,Berlin,Am Nordgraben  2,13509,788,198,25,261101878,773186000,52.589759,13.3077559
+515,Gemeinschaftskrankenhaus Havelhöhe,Berlin,Kladower Damm 221,14089,1226,257,21,261110049,772788000,52.4622327,13.1639917
+516,Evangelisches Krankenhaus Ludwigsfelde Teltow,Ludwigsfelde,Albert-Schweitzer-Straße 40 - 44,14974,446,123,28,261200071,772949000,52.3107317,13.2578627
+517,Kreiskrankenhaus Prignitz gemeinnützige GmbH,Perleberg,Dobberziner Straße 112,19348,333,90,27,261200106,772034000,53.0739528,11.8735286
+518,Universitätsklinikum Ruppin-Brandenburg,Neuruppin,Fehrbelliner Straße 38,16816,565,206,36,261200140,771991000,52.9061618,12.7971604
+519,St. Josefs-Krankenhaus Potsdam-Sanssouci,Potsdam,Allee nach Sanssouci 7,14471,678,175,26,261200162,771342000,52.3994735,13.044298
+520,Krankenhaus Märkisch Oderland GmbH,Strausberg,Prötzeler Chaussee 5,15344,232,72,31,261200219,771738000,52.5887367,13.9010345
+521,"Klinikum Ernst von Bergmann gemeinnützige GmbH, Standort Potsdam",Potsdam,Charlottenstraße 72,14467,1589,450,28,261200220,772760000,52.4011829,13.0658244
+522,Asklepios Klinikum Uckermark GmbH,Schwedt,Am Klinikum 1,16303,264,77,29,261200264,771340000,53.0532176,14.275758
+523,Städtisches Krankenhaus Eisenhüttenstadt GmbH,Eisenhüttenstadt,Friedrich-Engels-Straße 39,15890,133,92,69,261200286,772454000,52.1412225,14.6249318
+524,Immanuel Klinikum Bernau Herzzentrum Brandenburg,Bernau,Ladeburger Straße 17,16321,497,111,22,261200311,773116000,52.6832448,13.582028
+525,GLG Werner Forßmann Klinikum Eberswalde GmbH,Eberswalde,Rudolf-Breitscheid-Straße 100,16225,664,191,29,261200322,771508000,52.8289123,13.7918402
+526,Immanuel Klinik Rüdersdorf,Rüdersdorf,Seebad 82/83,15562,989,266,27,261200402,773115000,52.4546413,13.7728508
+527,Oberhavel Kliniken GmbH / Klinik Oranienburg,Oranienburg,Robert-Koch-Straße 2-12,16515,736,213,29,261200435,771029000,52.739935,13.2526362
+528,Oberhavel Kliniken GmbH / Klinik Hennigsdorf,Hennigsdorf,Marwitzer Straße 91,16761,Datenschutz,Datenschutz,Datenschutz,261200435,771030000,52.6557823,13.1913924
+529,Universitätsklinikum Brandenburg an der Havel GmbH,Brandenburg an der Havel,Hochstraße 29,14770,997,285,29,261200457,772221000,52.4126014,12.5475217
+530,"Havelland Kliniken GmbH, Klinik Nauen",Nauen,Ketziner Straße 21,14641,422,121,29,261200538,772643000,52.6007689,12.8758899
+531,KMG Klinikum Luckenwalde,Luckenwalde,Saarstraße 1,14943,241,84,35,261200549,773341000,52.0997522,13.1793365
+532,Carl-Thiem-Klinikum Cottbus gGmbH,Cottbus,Thiemstrasse 111,03048,971,363,37,261200721,773088000,51.7412386,14.3197683
+533,Klinikum Niederlausitz GmbH,Senftenberg,Krankenhausstraße 10,01968,480,140,29,261200856,773389000,51.5275144,14.000257
+534,Lausitz Klinik Forst GmbH,Forst,Robert-Koch-Straße 35,03149,348,111,32,261201027,772198000,51.7544519,14.6390585
+535,Klinikum Frankfurt (Oder) GmbH,Frankfurt,Müllroser Chaussee 7,15236,697,280,40,261201061,771632000,52.3023409,14.4823242
+536,Klinikum Frankfurt (Oder) GmbH Tagesklinik Frankfurt (Oder),Frankfurt,Heilbronner Straße 1,15230,Datenschutz,Datenschutz,Datenschutz,261201061,771633000,52.3424681,14.5435709
+537,Sana Krankenhaus Templin,Templin,Robert-Koch-Straße 24,17268,102,28,27,261201221,772401000,53.119292,13.5056686
+538,Elbe-Elster Klinikum GmbH Krankenhaus Herzberg,Herzberg,Alte Prettiner Straße 0,04916,397,83,21,261201312,772543000,51.6843295,13.2076866
+539,HELIOS Klinikum Bad Saarow,Bad Saarow,Pieskower Straße 33,15526,627,221,35,261201356,771839000,52.2837363,14.0626258
+540,Spreewaldklinik Lübben,Lübben,Schillerstrasse 29,15907,402,94,23,261201414,772820000,51.9437697,13.8736188
+541,Achenbach Krankenhaus Königs Wusterhausen,Königs Wusterhausen,Köpenicker Strasse 29,15711,680,155,23,261201414,772821000,52.302681,13.6271259
+542,MediClin Müritz-Klinikum,Waren,Weinbergstraße 19,17192,387,114,29,261300050,773471000,53.5223824,12.6859755
+543,Klinikum Südstadt Rostock,Rostock,Südring 81,18059,2441,670,27,261300118,771003000,54.0717274,12.1066615
+544,Westmecklenburg Klinikum Helene von Bülow,Hagenow,Parkstraße 12,19230,612,152,25,261300129,772800000,53.4343701,11.1819575
+545,Kreiskrankenhaus Demmin GmbH,Demmin,Wollweberstraße 21,17109,447,208,47,261300130,772074000,53.9020516,13.0418846
+546,Universitätsmedizin Greifswald - Körperschaft des öffentlichen Rechts,Greifswald,Fleischmannstraße 8,17475,965,364,38,261300152,773589000,54.0881837,13.4024372
+547,Helios Kliniken Schwerin,Schwerin,Wismarsche Straße 393-397,19055,1155,366,32,261300185,772916000,53.6514219,11.4082224
+548,KMG Klinikum Güstrow ,Güstrow,Friedrich-Trendelenburg-Allee 1,18273,683,195,29,261300276,772987000,53.8109937,12.2003523
+549,Sana-Krankenhaus Rügen GmbH,Bergen auf Rügen,Calandstr. 7/8,18528,73,45,62,261300312,772096000,54.4196619,13.4289453
+550,DRK-Krankenhaus Mecklenburg-Strelitz gGmbH,Neustrelitz,Penzliner Straße 56,17235,247,90,36,261300345,773039000,53.3802453,13.0525459
+551,Sana HANSE-Klinikum Wismar GmbH,Wismar,Störtebekerstraße 6,23966,699,181,26,261300356,773325000,53.8844905,11.4384072
+552,Helios Hanseklinikum Stralsund,Stralsund,Große Parower Straße 47-53,18435,796,299,38,261300367,771436000,54.3284098,13.0816926
+553,AKG Klinik Parchim GmbH,Parchim,John-Brinckman-Straße 8-10,19370,206,60,29,261300675,773601000,53.4300054,11.8540303
+554,Asklepios Klinik Pasewalk,Pasewalk,Prenzlauer Chaussee 30,17309,407,108,27,261300744,773369000,53.4893772,13.9856919
+555,AMEOS Klinikum Ueckermünde,Ueckermünde,Ravensteinstraße 23,17373,Datenschutz,Datenschutz,Datenschutz,261300802,773374000,53.7413725,14.0195522
+556,Anklam,Anklam,Hospitalstraße 19,17389,333,93,28,261300802,773375000,53.8485562,13.6990015
+557,Dietrich-Bonhoeffer-Klinikum Standort Neubrandenburg,Neubrandenburg,Salvador-Allende-Straße 30,17036,793,250,32,261320010,772893000,53.5446722,13.2939278
+558,St.Johannes Krankenhaus,Kamenz,Nebelschützer Straße 40,01917,406,88,22,261400017,772142000,51.2640966,14.1238952
+559,Krankenhaus St. Joseph-Stift Dresden GmbH,Dresden,Wintergartenstraße 15/17,01307,1340,195,15,261400039,771043000,51.0439525,13.760638
+560,Diakonissenkrankenhaus Dresden,Dresden,Holzhofgasse 29,01099,1089,178,16,261400040,771783000,51.063117,13.7614974
+561,Pleißental-Klinik GmbH,Werdau,Ronneburger Straße 106,08412,626,156,25,261400051,772433000,50.7423485,12.3668469
+562,Rudolf Virchow Klinikum Glauchau,Glauchau,Virchow Str. 18,08371,361,103,29,261400084,772880000,50.8096111,12.5509454
+563,"Heinrich-Braun-Klinikum gemeinnützige GmbH, Standort Zwickau",Zwickau,Karl-Keil-Straße 35,08060,909,269,30,261400379,772365000,50.7225016,12.4311037
+564,Klinikum Obergöltzsch Rodewisch,Rodewisch,Stiftstraße 10,08228,588,148,25,261400380,771157000,50.5231386,12.4108526
+565,Deutsches Rotes Kreuz Krankenhaus Lichtenstein Gemeinnützige GmbH,Lichtenstein,Hartensteiner Straße 42,09350,236,50,21,261400426,771040000,50.748531,12.6353241
+566,Klinikum St. Georg gGmbH,Leipzig,Delitzscher Straße 141,04129,1584,424,27,261400530,772884000,51.3840002,12.3810491
+567,"Muldentalkliniken GmbH, Gemeinnützige Gesellschaft Standort Grimma",Grimma,Kleiststraße 5,04668,320,92,29,261400563,772622000,51.2374769,12.7186098
+568,"Muldentalkliniken GmbH, Gemeinnützige Gesellschaft Standort Wurzen",Wurzen,Kutusowstraße 70,04808,342,109,32,261400563,772623000,51.3788364,12.7322729
+569,Kreiskrankenhaus Weißwasser gGmbH,Weißwasser,Karl-Liebknecht-Str. 1,02943,81,31,38,261400610,772890000,51.5027422,14.6311049
+570,Lausitzer Seenland Klinikum GmbH,Hoyerswerda,Maria-Grollmuß-Straße 10,02977,596,160,27,261400621,773221000,51.4420507,14.2724085
+571,"ELBLANDKLINIKEN Stiftung & Co. KG, ELBLANDKLINIKUM Riesa",Riesa,Weinbergstraße 8,01589,468,111,24,261400687,771429000,51.2959917,13.3104542
+572,Klinikum Oberlausitzer Bergland gemeinnützige GmbH,Zittau,Görlitzer Straße 8,02763,301,123,41,261400723,772442000,50.8992819,14.8197989
+573,Klinikum Oberlausitzer Bergland gemeinnützige GmbH,Ebersbach-Neugersdorf,Röntgenstraße 23,02730,348,90,26,261400723,772443000,51.0049872,14.5694573
+574,Erzgebirgsklinikum gGmbH - Haus Annaberg,Annaberg-Buchholz,Chemnitzer Straße 15,09456,416,118,28,261400790,771961000,50.592103,13.0067172
+575,Erzgebirgsklinikum gGmbH Haus Zschopau,Zschopau,Alte Marienberger Str. 52,09405,372,90,24,261400814,772266000,50.7352235,13.0791184
+576,Helios Klinikum Pirna,Pirna,Struppener Straße 13,01796,589,113,19,261400892,771818000,50.9583827,13.9540004
+577,Städtisches Klinikum Dresden - Standort Neustadt/Trachau,Dresden,Industriestrasse 40,01129,1431,282,20,261400949,772841000,51.0909968,13.7097782
+578,Kreiskrankenhaus Freiberg,Freiberg,Donatsring 20,09599,554,148,27,261400972,772957000,50.9206902,13.3516027
+579,"Helios Weißeritztal Kliniken, Klinikum Freital",Freital,Bürgerstraße 7,01705,321,63,20,261401018,771986000,50.9917887,13.6452408
+580,"Universitätsklinikum Carl Gustav Carus Dresden an der Technischen Universität Dresden, Anstalt des öffentlichen Rechts des Freistaates Sachsen",Dresden,Fetscherstraße 74,01307,2319,691,30,261401030,773444000,51.0565463,13.7825911
+581,Oberlausitz-Kliniken gGmbH/ Krankenhaus Bautzen,Bautzen,Am Stadtwall 3,02625,729,227,31,261401041,771695000,51.1845616,14.4320559
+582,Universitätsklinikum Leipzig Anstalt öffentlichen Rechts,Leipzig,Liebigstraße 18,04103,2213,657,30,261401052,771392000,51.3313102,12.384855
+583,Sana Kliniken Leipziger Land GmbH - Klinikum Borna,Borna,Rudolf-Virchow-Straße 2,04552,875,217,25,261401063,771016000,51.1346458,12.505405
+584,St. Elisabeth-Krankenhaus Leipzig,Leipzig,Biedermannstraße 84,04277,2234,497,22,261401212,771805000,51.3030458,12.3788189
+585,Städtisches Klinikum Görlitz gGmbH,Görlitz,Girbigsdorfer Straße 1-3,02828,595,193,32,261401267,772378000,51.1622911,14.9702723
+586,Helios Klinikum Aue,Aue,Gartenstraße  6,08280,548,196,36,261401381,773446000,50.5917832,12.7175633
+587,Herzzentrum Leipzig GmbH,Leipzig,Strümpellstraße 39,04289,Datenschutz,Datenschutz,Datenschutz,261401405,771136000,51.3076931,12.4377123
+588,Klinikum Chemnitz gGmbH,Chemnitz,Flemmingstraße 2,09116,1334,336,25,261401416,772794000,50.8447689,12.8861281
+589,Kliniken Erlabrunn GmbH,Breitenbrunn,Am Märzenberg 1 ,08359,292,85,29,261410020,771591000,50.4739508,12.7112792
+590,KH Mittweida,Mittweida,Hainichener Straße 4-6,09648,493,109,22,261410155,772815000,50.9809601,12.9845112
+591,Deutsches Rotes Kreuz Krankenhaus Chemnitz-Rabenstein,Chemnitz,Unritzstraße 23,09117,1607,351,22,261410166,771039000,50.8205525,12.8263317
+592,Helios Vogtland-Klinikum Plauen,Plauen,Röntgenstraße 2,08529,805,267,33,261410315,771537000,50.4910978,12.1546854
+593,"ELBLANDKLINIKEN Stiftung & Co. KG, ELBLANDKLINIKUM Meißen",Meißen,Nassauweg 7,01662,465,116,25,261420055,771831000,51.1732859,13.5062254
+594,Kreiskrankenhaus Johann Kentmann gGmbH,Torgau,Christianistraße 1,04860,388,99,26,261430013,771248000,51.5615181,12.9843482
+595,HELIOS Klinik Schkeuditz GmbH,Schkeuditz,Leipziger Straße  45,04435,321,99,31,261430024,771525000,51.3943344,12.230264
+596,Kreiskrankenhaus Delitszch GmbH,Eilenburg,Wilhelm-Grune-Straße 5-8,04838,297,60,20,261470034,771664000,51.4604669,12.6211978
+597,Johanniter GmbH - Zweigniederlassung Stendal - Johanniter Krankenhaus Stendal,Stendal,Wendstraße  31,39576,677,214,32,261500030,773125000,52.611217,11.8542122
+598,Uniklinik Magdeburg ,Magdeburg ,Gerhart-Hauptmann-Straße  35,39108,1231,367,30,261500289,773666000,52.1294618,11.6177367
+599,Altmark Klinikum Gardelegen,Gardelegen,Ernst-von-Bergmann-Straße 22,39638,164,56,34,261500290,773354000,52.5223838,11.381898
+600,Altmark Klinikum Salzwedel,Salzwedel,Brunnenstraße 1,29410,396,77,19,261500290,773355000,52.8561189,11.1453114
+601,AMEOS Klinikum Aschersleben,Aschersleben,Eislebener Str. 7,06449,404,148,37,261500358,772968000,51.7462195,11.4579276
+602,Carl-von-Basedow-Klinikum Saalekreis gGmbH,Merseburg,Weiße Mauer  52,06217,764,269,35,261500461,772911000,51.3663738,11.9938967
+603,Helios Klinik Köthen GmbH,Köthen,Hallesche Straße 29,06366,422,109,26,261500586,773269000,51.7467898,11.9727226
+604,KLINIKUM MAGDEBURG gemeinnützige GmbH,Magdeburg,Birkenallee 34,39130,1382,407,29,261500597,773244000,52.1586493,11.5794531
+605,Paul Gerhardt Diakonie Krankenhaus und Pflege GmbH,Lutherstadt Wittenberg,Paul-Gerhardt-Straße 42-45,06886,660,206,31,261500611,773668000,51.8703045,12.6567485
+606,Krankenhaus St. Elisabeth und St. Barbara Halle (Saale) GmbH / St. Elisabeth - Mauerstraße,Halle,Mauerstraße 5,06110,1745,480,28,261500677,772512000,51.4774685,11.968023
+607,Universitätsklinikum Halle (Saale),Halle,Ernst-Grube-Straße 40,06120,1191,444,37,261500702,773513000,51.5019795,11.9366516
+608,Helios Klinik Jerichower Land,Burg,August-Bebel-Straße 55,39288,352,132,38,261500735,772243000,52.2660431,11.833949
+609,Städtisches Klinikum Dessau,Dessau-Roßlau,Auenweg 38,06847,838,318,38,261500757,771701000,51.8159148,12.1976598
+610,HELIOS Klinik Sangerhausen,Sangerhausen,Am Beinschuh 2,06526,568,157,28,261500882,771960000,51.4731979,11.3100727
+611,"Harzklinikum Dorothea Christiane Erxleben, Standort Quedlinburg",Quedlinburg,Ditfurter Weg 24,06484,87,28,32,261500984,771011000,51.7949248,11.1635371
+612,"Harzklinikum Dorothea Christiane Erxleben, Standort Wernigerode",Wernigerode,Ilsenburger Straße 15,38855,850,306,36,261500984,771012000,51.8356769,10.7762577
+613,Krankenhaus St. Marienstift Magdeburg GmbH,Magdeburg,Harsdorfer Straße 30,39110,944,229,24,261530183,773310000,52.1371517,11.6005955
+614,AMEOS Klinikum Halberstadt,Halberstadt,Gleimstraße 5,38820,440,174,40,261530252,773419000,51.9013165,11.0543212
+615,Klinikum Bad Salzungen GmbH,Bad Salzungen,Lindigallee 3,36433,399,112,28,261600042,772539000,50.8032602,10.2185891
+616,Thüringen-Kliniken &quot;Georgius Agricola&quot; GmbH,Saalfeld,Rainweg 68,07318,736,208,28,261600188,772621000,50.6456452,11.3436957
+617,SRH Krankenhaus Waltershausen-Friedrichroda GmbH,Friedrichroda,Reinhardsbrunner Straße 17,99894,331,95,29,261600280,772664000,50.8609247,10.5604609
+618,"Katholisches Krankenhaus ""St. Johann Nepomuk"" Erfurt",Erfurt,Haarbergstraße 72,99097,482,132,27,261600337,772251000,50.9477349,11.0842262
+619,Robert-Koch-Krankenhaus Apolda GmbH,Apolda,Jenaer Straße 66,99510,590,124,21,261600382,772860000,51.0128361,11.5124558
+620,Südharz Klinikum Nordhausen gGmbH,Nordhausen,Dr.-Robert-Koch-Straße 39,99734,584,201,34,261600417,771941000,51.5162705,10.7947784
+621,"Hufeland Klinikum GmbH, Standort Mühlhausen",Mühlhausen,Langensalzaer Landstraße 1,99974,626,160,26,261600521,771235000,51.2015306,10.4683
+622,SRH Wald-Klinikum Gera GmbH,Gera,Straße des Friedens 122,07548,813,262,32,261600543,773690000,50.8685761,12.0515681
+623,Klinikum Altenburger Land GmbH,Altenburg,Am Waldessaum 10,04600,373,131,35,261600623,773479000,50.9723974,12.4410229
+624,Universitätsklinikum Jena,Jena,Kastanienstraße 1,07747,1235,427,35,261600736,772874000,50.8862074,11.6158829
+625,MEDINOS Kliniken des Landkreises Sonneberg GmbH,Sonneberg,Neustadter Straße  61,96515,238,77,32,261600872,771725000,50.3539322,11.1631209
+626,MEDINOS Kliniken des Landkreises Sonneberg GmbH,Neuhaus,Schöne Aussicht  39,98724,Datenschutz,Datenschutz,Datenschutz,261600872,771726000,50.5111702,11.1300334
+627,HELIOS Klinikum Meiningen,Meiningen,Bergstraße 3,98617,476,191,40,261600883,771095000,50.5575191,10.3971342
+628,Helios Klinikum Gotha,Gotha,Heliosstraße 1,99867,523,115,22,261600894,772368000,50.9284165,10.6776104
+629,SRH Zentralklinikum Suhl GmbH,Suhl,Albert-Schweitzer-Straße 2,98527,877,307,35,261600941,773357000,50.6024817,10.7098953
+630,Sophien- und Hufeland-Klinikum gGmbH,Weimar,Henry-van-de-Velde-Straße 2,99425,905,276,30,261600952,771939000,50.9603339,11.3222192
+631,Eichsfeld Klinikum gGmbH,Heilbad Heiligenstadt,Windische Gasse 112,37308,419,94,22,261601010,772741000,51.3763561,10.1410363
+632,HELIOS Klinikum Erfurt,Erfurt,Nordhäuser Straße 74,99089,1426,460,32,261601021,771835000,50.9923519,11.0124195
+633,St. Georg Klinikum Eisenach gemeinnützige GmbH,Eisenach,Mühlhäuser Straße 94-95,99817,593,224,38,261601123,772308000,50.9892638,10.3168812
+634,KMG Klinikum Sömmerda,Sömmerda,Bahnhofstraße 36,99610,202,74,37,261601145,773338000,51.1622289,11.1218524
+635,KMG Klinikum Sondershausen,Sondershausen,Hospitalstraße 2,99706,285,73,26,261601145,773340000,51.3736344,10.8790771
+636,Ilm-Kreis-Kliniken Arnstadt-Ilmenau gGmbH,Ilmenau,Oehrenstöcker Straße 32,98693,Datenschutz,Datenschutz,Datenschutz,261601203,773583000,50.6793812,10.9184893
+637,Ilm-Kreis-Kliniken Arnstadt-Ilmenau gGmbH,Arnstadt,Bärwinkelstraße 33,99310,633,175,28,261601203,773594000,50.8393775,10.9413536
