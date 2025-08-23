@@ -96,3 +96,9 @@ Hospital Statistics from www.g-ba.de/qualitaetsberichte (Qualitätsberichte der 
 - Create map showing risks of C-section in an area
 - Consider individualized maps for e.g. VBACs (Vaginal Birth after C-Section)
 - Track hospital changes over time (More data is needed, as according to the quality reports, the data collected during Covid is not comparable)
+
+## Disclaimer
+- Because only hospitals with obstetrics departments that reported the exact number of births and C-sections (for small amount of births, the hospital does not need to report the data because of patient confidentiality) have been analyzed, the following disclaimer is necessary:
+Die Qualitätsberichte der Krankenhäuser werden vorliegend nur teilweise bzw. auszugsweise genutzt. Eine vollständige unveränderte Darstellung der Qualitätsberichte der Krankenhäuser erhalten Sie unter www.g-ba.de/qualitaetsberichte.
+- Because the (gps) location data is not from the quality reports, but from an external source (OpenStreetMap), the following disclaimer is necessary:
+Die Qualitätsberichte der Krankenhäuser werden vorliegend in Verbindung mit anderen Erkenntnisquellen genutzt. Die angegebenen Empfehlungen und Ergebnisse stellen daher keine authentische Wiedergabe der Qualitätsberichte dar. Eine vollständige Darstellung der Qualitätsberichte der Krankenhäuser erhalten Sie unter www.g-ba.de/qualitaetsberichte.
