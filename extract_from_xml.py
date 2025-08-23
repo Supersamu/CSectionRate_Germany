@@ -104,22 +104,52 @@ def clean_clinic_data(ik: str, site_identifier: str, hospital_name: str, city: s
     For this reason, logging has been put in place.
     """
     if "(" in street:
-        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the street name was "
-                     f"changed from : [[{street}]] to [[{street.split("(")[0].strip()}]]")
-        street = street.split("(")[0].strip()
+        corrected_street = street.split('(')[0].strip()
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the street name was " 
+                        f"changed from : [[{street}]] to [[{corrected_street}]]")
+        street = corrected_street
     if any(char.isdigit() for char in street):
         # get the index of the first digit
         index = next(i for i, char in enumerate(street) if char.isdigit())
+        corrected_street = street[:index].strip()
         logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the street name was "
-                     f"changed from : [[{street}]] to [[{street[:index].strip()}]]")
-        street = street[:index].strip()
+                        f"changed from : [[{street}]] to [[{corrected_street}]]")
+        street = corrected_street
+    if street == "Humboldtdtraße":
+        corrected_street = "Humboldtstraße"
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the street name was "
+                        f"changed from : [[{street}]] to [[Humboldtstraße]]")
+        street = corrected_street
+
+    if any(char.isalpha() for char in street_number):
+        corrected_street_number = ''.join([char for char in street_number if not char.isalpha()])
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the street number was "
+                        f"changed from : [[{street_number}]] to "
+                        f"[[{corrected_street_number}]]")
+        street_number = corrected_street_number
     street_and_street_number = None
     if street and street_number:
         street_and_street_number = street + " " + street_number
+
     if "/" in city:
+        corrected_city = city.split('/')[0].strip()
         logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the city name was "
-                     f"changed from : [[{city}]] to [[{city.split('/')[0].strip()}]]")
-        city = city.split("/")[0].strip()
+                        f"changed from : [[{city}]] to [[{corrected_city}]]")
+        city = corrected_city
+    if "(" in city:
+        corrected_city = city.split('(')[0].strip()
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the city name was " 
+                        f"changed from : [[{city}]] to [[{corrected_city}]]")
+        city = corrected_city
+    if any(char.isdigit() for char in city):
+        corrected_city = ''.join([char for char in city if not char.isdigit()])
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the city name was "
+                        f"changed from : [[{city}]] to [[{corrected_city}]]")
+        city = corrected_city
+    if city == "Erbach im Odenwald":
+        corrected_city = "Erbach"
+        logging.warning(f"For the hospital with IK {ik} and Standortnummer {site_identifier}, the city name was "
+                        f"changed from : [[{city}]] to [[{corrected_city}]]")
+        city = corrected_city
 
     return hospital_name, city, street_and_street_number, postal_code
-        

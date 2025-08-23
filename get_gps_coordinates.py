@@ -22,7 +22,7 @@ def get_coordinates_from_clinic_data(clinic_data, cache_file='coordinates_cache.
 
     geolocator = Nominatim(user_agent="csection_rate_analysis")
     location = geolocator.geocode(query=clinic_data, country_codes='de')
-    time.sleep(1)  # maximum of 1 request per second according to Terms of Use
+    time.sleep(2)  # maximum of 1 request per second according to Terms of Use
     if location:
         coords = (location.latitude, location.longitude)
         cache[key] = coords
