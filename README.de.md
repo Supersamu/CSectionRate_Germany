@@ -66,7 +66,7 @@ CSectionRate_Germany/
 2. Virtuelle Umgebung einrichten:
    ```bash
    python -m venv .venv
-   .venv\Scripts\activate  # Windows
+   .venv\Scripts\activate  # Windows
    ```
 3. Abhängigkeiten installieren:
    ```bash
