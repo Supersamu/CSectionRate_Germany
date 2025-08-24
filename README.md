@@ -1,5 +1,7 @@
 # C-Section Rate Analysis - German Hospitals
 
+[German Readme](README.de.md)
+
 ## Project Overview
 
 This project analyzes cesarean section (C-section) rates across German hospitals using structured XML data from publically available hospital quality reports. The analysis extracts, processes, and transforms hospital statistics into actionable insights for mothers and parents that want to make an informed choice about their preferred location of delivery.
